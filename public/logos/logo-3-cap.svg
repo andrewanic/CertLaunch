@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 120">
+  <!-- Icon: Graduation cap launching upward like a rocket -->
+  <g transform="translate(10, 8)">
+    <!-- Cap board (diamond, tilted as if launching) -->
+    <polygon points="50,15 85,30 50,40 15,30" fill="#1a365d"/>
+    <!-- Cap top button -->
+    <circle cx="50" cy="26" r="3" fill="#38b2ac"/>
+    <!-- Tassel flowing behind (like exhaust) -->
+    <path d="M50 26 Q55 35 52 50 Q50 60 48 70" fill="none" stroke="#38b2ac" stroke-width="2.5" stroke-linecap="round"/>
+    <circle cx="47" cy="72" r="3" fill="#38b2ac"/>
+    <!-- Upward motion lines -->
+    <line x1="30" y1="50" x2="30" y2="60" stroke="#38b2ac" stroke-width="1.5" opacity="0.4" stroke-linecap="round"/>
+    <line x1="70" y1="50" x2="70" y2="60" stroke="#38b2ac" stroke-width="1.5" opacity="0.4" stroke-linecap="round"/>
+    <line x1="50" y1="5" x2="50" y2="0" stroke="#38b2ac" stroke-width="2" opacity="0.5" stroke-linecap="round"/>
+    <!-- Small flame/boost under cap -->
+    <ellipse cx="50" cy="44" rx="10" ry="4" fill="#38b2ac" opacity="0.3"/>
+    <!-- Exhaust particles -->
+    <circle cx="45" cy="82" r="2" fill="#1a365d" opacity="0.2"/>
+    <circle cx="55" cy="88" r="1.5" fill="#1a365d" opacity="0.15"/>
+    <circle cx="42" cy="92" r="1" fill="#1a365d" opacity="0.1"/>
+  </g>
+
+  <!-- Wordmark -->
+  <text x="105" y="68" font-family="'Segoe UI', Arial, sans-serif" font-weight="700" font-size="50" fill="#1a365d" letter-spacing="-1">
+    Cert<tspan fill="#38b2ac">Launch</tspan>
+  </text>
+
+  <!-- Tagline -->
+  <text x="107" y="92" font-family="'Segoe UI', Arial, sans-serif" font-weight="400" font-size="13" fill="#1a365d" letter-spacing="2" opacity="0.7">
+    LAUNCH YOUR CAREER. SKIP THE DEGREE.
+  </text>
+</svg>

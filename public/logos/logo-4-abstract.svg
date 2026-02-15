@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 120">
+  <!-- Icon: Abstract geometric mark — stacked ascending blocks forming an upward arrow -->
+  <g transform="translate(15, 10)">
+    <!-- Three ascending blocks -->
+    <rect x="0" y="65" width="22" height="22" rx="4" fill="#1a365d" opacity="0.4"/>
+    <rect x="28" y="42" width="22" height="45" rx="4" fill="#1a365d" opacity="0.7"/>
+    <rect x="56" y="18" width="22" height="69" rx="4" fill="#1a365d"/>
+    <!-- Arrow tip on top of tallest block -->
+    <polygon points="67,5 78,18 56,18" fill="#38b2ac"/>
+    <!-- Accent dot -->
+    <circle cx="11" cy="56" r="4" fill="#38b2ac"/>
+  </g>
+
+  <!-- Wordmark -->
+  <text x="110" y="68" font-family="'Segoe UI', Arial, sans-serif" font-weight="700" font-size="50" fill="#1a365d" letter-spacing="-1">
+    Cert<tspan fill="#38b2ac">Launch</tspan>
+  </text>
+
+  <!-- Tagline -->
+  <text x="112" y="92" font-family="'Segoe UI', Arial, sans-serif" font-weight="400" font-size="13" fill="#1a365d" letter-spacing="2" opacity="0.7">
+    LAUNCH YOUR CAREER. SKIP THE DEGREE.
+  </text>
+</svg>

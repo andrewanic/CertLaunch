@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 120">
+  <defs>
+    <linearGradient id="rocketGrad" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#1a365d"/>
+      <stop offset="100%" stop-color="#38b2ac"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Icon: Rocket integrated into C shape -->
+  <g transform="translate(10, 10)">
+    <!-- C shape as launchpad arc -->
+    <path d="M50 95 C20 95 0 75 0 50 C0 25 20 5 50 5 L55 5 L55 18 L50 18 C28 18 14 32 14 50 C14 68 28 82 50 82 L55 82 L55 95 Z" fill="#1a365d"/>
+    <!-- Rocket body -->
+    <rect x="42" y="15" width="16" height="50" rx="8" fill="url(#rocketGrad)"/>
+    <!-- Rocket nose cone -->
+    <polygon points="50,2 58,15 42,15" fill="#38b2ac"/>
+    <!-- Rocket fins -->
+    <polygon points="42,55 34,70 42,65" fill="#1a365d"/>
+    <polygon points="58,55 66,70 58,65" fill="#1a365d"/>
+    <!-- Flame -->
+    <ellipse cx="50" cy="72" rx="6" ry="10" fill="#38b2ac" opacity="0.7"/>
+    <ellipse cx="50" cy="75" rx="3" ry="6" fill="white" opacity="0.8"/>
+    <!-- Exhaust trail dots -->
+    <circle cx="50" cy="86" r="2.5" fill="#38b2ac" opacity="0.4"/>
+    <circle cx="50" cy="93" r="1.5" fill="#38b2ac" opacity="0.2"/>
+  </g>
+
+  <!-- Wordmark -->
+  <text x="95" y="72" font-family="'Segoe UI', Arial, sans-serif" font-weight="700" font-size="52" fill="#1a365d" letter-spacing="-1">
+    Cert<tspan fill="#38b2ac">Launch</tspan>
+  </text>
+  
+  <!-- Tagline -->
+  <text x="97" y="95" font-family="'Segoe UI', Arial, sans-serif" font-weight="400" font-size="13" fill="#1a365d" letter-spacing="2" opacity="0.7">
+    LAUNCH YOUR CAREER. SKIP THE DEGREE.
+  </text>
+</svg>

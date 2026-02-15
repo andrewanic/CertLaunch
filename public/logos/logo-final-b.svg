@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 100" width="440" height="100">
+  <style>
+    .logo-text { font-family: 'Montserrat', 'Segoe UI', 'Arial Black', sans-serif; }
+  </style>
+  <!-- Logo B: Bold & Modern (Udemy-inspired) -->
+  <!-- Main wordmark -->
+  <text x="220" y="48" text-anchor="middle" class="logo-text" font-size="44" font-weight="800" fill="#1a365d" letter-spacing="-0.5">
+    CertLaunch
+  </text>
+  <!-- Teal accent bar -->
+  <rect x="130" y="56" width="180" height="3" rx="1.5" fill="#38b2ac"/>
+  <!-- Tagline -->
+  <text x="220" y="76" text-anchor="middle" class="logo-text" font-size="12" font-weight="500" fill="#38b2ac" letter-spacing="3" text-transform="uppercase">
+    Launch Your Career. Skip the Degree.
+  </text>
+</svg>
