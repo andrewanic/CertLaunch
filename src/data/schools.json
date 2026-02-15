@@ -1,0 +1,324 @@
+{
+  "real-estate": [
+    {
+      "name": "Kaplan Real Estate Education",
+      "slug": "kaplan",
+      "priceRange": "$199 – $549",
+      "format": "Online / In-Person",
+      "rating": 4.7,
+      "reviews": 12840,
+      "features": ["Exam prep included", "Instructor support", "Pass guarantee"],
+      "description": "One of the largest and most trusted names in real estate education. Kaplan offers comprehensive packages with instructor-led and self-paced options.",
+      "affiliateUrl": "#",
+      "states": ["california", "florida", "texas", "new-york", "illinois", "ohio", "georgia", "pennsylvania", "north-carolina", "michigan"]
+    },
+    {
+      "name": "The CE Shop",
+      "slug": "ce-shop",
+      "priceRange": "$119 – $479",
+      "format": "Online",
+      "rating": 4.6,
+      "reviews": 8920,
+      "features": ["Interactive courses", "Mobile-friendly", "Exam prep tools"],
+      "description": "Award-winning online real estate school with engaging, interactive content and excellent pass rates.",
+      "affiliateUrl": "#",
+      "states": ["california", "florida", "texas", "new-york", "colorado", "washington", "virginia", "arizona", "tennessee", "ohio"]
+    },
+    {
+      "name": "Colibri Real Estate",
+      "slug": "colibri",
+      "priceRange": "$139 – $599",
+      "format": "Online",
+      "rating": 4.5,
+      "reviews": 15200,
+      "features": ["Live webinars", "Instructor Q&A", "Career resources"],
+      "description": "Formerly Real Estate Express, Colibri is one of the most popular online real estate schools in the country.",
+      "affiliateUrl": "#",
+      "states": ["florida", "texas", "new-york", "georgia", "north-carolina", "virginia", "ohio", "michigan", "illinois", "pennsylvania"]
+    },
+    {
+      "name": "Aceable Agent",
+      "slug": "aceable",
+      "priceRange": "$99 – $399",
+      "format": "Online / Mobile App",
+      "rating": 4.8,
+      "reviews": 6340,
+      "features": ["Mobile-first design", "Bite-sized lessons", "Affordable pricing"],
+      "description": "Modern, mobile-first real estate school designed for busy learners who want to study anywhere, anytime.",
+      "affiliateUrl": "#",
+      "states": ["texas", "california", "florida", "new-york", "colorado", "georgia"]
+    },
+    {
+      "name": "RealEstateU",
+      "slug": "realestateu",
+      "priceRange": "$79 – $249",
+      "format": "Online",
+      "rating": 4.4,
+      "reviews": 4120,
+      "features": ["Budget-friendly", "Self-paced", "Simple interface"],
+      "description": "Affordable online real estate school that gets straight to the point. No fluff, just the education you need to pass.",
+      "affiliateUrl": "#",
+      "states": ["new-york", "texas", "michigan", "georgia", "virginia", "tennessee"]
+    },
+    {
+      "name": "PrepAgent",
+      "slug": "prepagent",
+      "priceRange": "$59 – $149",
+      "format": "Online",
+      "rating": 4.6,
+      "reviews": 7800,
+      "features": ["Exam prep focus", "Audio lessons", "Practice tests"],
+      "description": "Specialized exam prep platform with practice questions, audio lessons, and crash courses to help you pass the licensing exam.",
+      "affiliateUrl": "#",
+      "states": ["california", "florida", "texas", "new-york", "illinois", "ohio", "georgia", "pennsylvania", "arizona", "colorado"]
+    }
+  ],
+  "mortgage-loan-officer": [
+    {
+      "name": "OnCourse Learning",
+      "slug": "oncourse",
+      "priceRange": "$249 – $449",
+      "format": "Online",
+      "rating": 4.5,
+      "reviews": 3200,
+      "features": ["NMLS-approved", "Exam prep included", "State-specific content"],
+      "description": "Leading NMLS-approved education provider with comprehensive MLO pre-licensing and exam prep packages.",
+      "affiliateUrl": "#",
+      "states": ["california", "florida", "texas", "new-york", "ohio", "illinois", "georgia", "colorado", "virginia", "pennsylvania"]
+    },
+    {
+      "name": "Mortgage Educators & Compliance",
+      "slug": "mortgage-educators",
+      "priceRange": "$295 – $495",
+      "format": "Online / Live Webinar",
+      "rating": 4.7,
+      "reviews": 2100,
+      "features": ["Live instruction", "High pass rates", "Career guidance"],
+      "description": "Premium MLO education with live webinar options and some of the highest first-time pass rates in the industry.",
+      "affiliateUrl": "#",
+      "states": ["california", "florida", "texas", "new-york", "washington", "ohio", "colorado", "arizona"]
+    },
+    {
+      "name": "Kaplan Financial Education",
+      "slug": "kaplan-mlo",
+      "priceRange": "$199 – $399",
+      "format": "Online / In-Person",
+      "rating": 4.6,
+      "reviews": 4500,
+      "features": ["Trusted brand", "Multiple formats", "Exam simulations"],
+      "description": "Kaplan's mortgage education arm offers flexible MLO pre-licensing with strong exam prep tools.",
+      "affiliateUrl": "#",
+      "states": ["florida", "texas", "california", "new-york", "illinois", "ohio", "georgia", "pennsylvania", "michigan", "north-carolina"]
+    },
+    {
+      "name": "Alliance Academy",
+      "slug": "alliance",
+      "priceRange": "$159 – $299",
+      "format": "Online",
+      "rating": 4.3,
+      "reviews": 1800,
+      "features": ["Affordable", "Self-paced", "NMLS-approved"],
+      "description": "Budget-friendly NMLS-approved MLO education that doesn't sacrifice quality. Great for self-motivated learners.",
+      "affiliateUrl": "#",
+      "states": ["texas", "florida", "california", "georgia", "ohio", "colorado", "virginia"]
+    },
+    {
+      "name": "MLO Training Hub",
+      "slug": "mlo-training-hub",
+      "priceRange": "$179 – $349",
+      "format": "Online",
+      "rating": 4.4,
+      "reviews": 980,
+      "features": ["Modern platform", "Video lessons", "Practice exams"],
+      "description": "Newer MLO training platform with modern video-based lessons and comprehensive practice exam banks.",
+      "affiliateUrl": "#",
+      "states": ["florida", "texas", "california", "new-york", "ohio", "arizona", "colorado", "washington"]
+    }
+  ],
+  "appraisal": [
+    {
+      "name": "McKissock Learning",
+      "slug": "mckissock",
+      "priceRange": "$299 – $599",
+      "format": "Online",
+      "rating": 4.7,
+      "reviews": 5600,
+      "features": ["Industry leader", "All credential levels", "CE packages"],
+      "description": "The premier name in appraisal education. McKissock offers courses for every credential level from trainee to certified general.",
+      "affiliateUrl": "#",
+      "states": ["california", "florida", "texas", "new-york", "ohio", "illinois", "pennsylvania", "georgia", "virginia", "colorado"]
+    },
+    {
+      "name": "Hondros Education Group",
+      "slug": "hondros-appraisal",
+      "priceRange": "$249 – $499",
+      "format": "Online / In-Person",
+      "rating": 4.5,
+      "reviews": 2300,
+      "features": ["Hands-on training", "Career placement", "Regional expertise"],
+      "description": "Strong regional appraisal school with both online and classroom options and excellent career support.",
+      "affiliateUrl": "#",
+      "states": ["ohio", "michigan", "pennsylvania", "kentucky", "indiana", "virginia"]
+    },
+    {
+      "name": "Appraisal Institute",
+      "slug": "appraisal-institute",
+      "priceRange": "$349 – $799",
+      "format": "Online / In-Person",
+      "rating": 4.8,
+      "reviews": 3100,
+      "features": ["Professional designation", "Networking", "Premium education"],
+      "description": "The gold standard in appraisal education. Offers qualifying education plus professional designation courses.",
+      "affiliateUrl": "#",
+      "states": ["california", "florida", "texas", "new-york", "illinois", "ohio", "colorado", "georgia", "virginia", "pennsylvania"]
+    },
+    {
+      "name": "Kaplan Appraisal Education",
+      "slug": "kaplan-appraisal",
+      "priceRange": "$199 – $449",
+      "format": "Online",
+      "rating": 4.4,
+      "reviews": 1900,
+      "features": ["Self-paced", "Exam prep", "Multiple levels"],
+      "description": "Kaplan's appraisal division offers qualifying education at all levels with flexible online study.",
+      "affiliateUrl": "#",
+      "states": ["texas", "florida", "california", "new-york", "ohio", "illinois", "pennsylvania", "michigan"]
+    },
+    {
+      "name": "CompanionProp",
+      "slug": "companionprop",
+      "priceRange": "$149 – $349",
+      "format": "Online",
+      "rating": 4.3,
+      "reviews": 780,
+      "features": ["Budget-friendly", "Quick start", "Modern platform"],
+      "description": "Affordable online appraisal education for aspiring trainees looking to get started quickly.",
+      "affiliateUrl": "#",
+      "states": ["california", "texas", "florida", "ohio", "colorado", "georgia"]
+    }
+  ],
+  "insurance": [
+    {
+      "name": "Kaplan Financial Education",
+      "slug": "kaplan-insurance",
+      "priceRange": "$199 – $499",
+      "format": "Online / In-Person",
+      "rating": 4.6,
+      "reviews": 8900,
+      "features": ["All license types", "Exam prep", "Pass guarantee"],
+      "description": "Comprehensive insurance pre-licensing for P&C, Life & Health, and more. Kaplan's proven system includes exam prep and guarantees.",
+      "affiliateUrl": "#",
+      "states": ["california", "florida", "texas", "new-york", "ohio", "illinois", "georgia", "pennsylvania", "michigan", "north-carolina"]
+    },
+    {
+      "name": "ExamFX",
+      "slug": "examfx",
+      "priceRange": "$149 – $349",
+      "format": "Online",
+      "rating": 4.5,
+      "reviews": 6200,
+      "features": ["Exam simulations", "Video content", "Flashcards"],
+      "description": "Focused insurance exam prep with interactive study tools, practice exams, and performance tracking.",
+      "affiliateUrl": "#",
+      "states": ["florida", "texas", "california", "new-york", "ohio", "georgia", "illinois", "virginia", "colorado", "arizona"]
+    },
+    {
+      "name": "America's Professor",
+      "slug": "americas-professor",
+      "priceRange": "$179 – $399",
+      "format": "Online",
+      "rating": 4.7,
+      "reviews": 3400,
+      "features": ["Video lectures", "Cram courses", "High pass rates"],
+      "description": "Popular video-based insurance education with engaging instructors and excellent first-time pass rates.",
+      "affiliateUrl": "#",
+      "states": ["florida", "texas", "california", "georgia", "ohio", "virginia", "north-carolina"]
+    },
+    {
+      "name": "WebCE",
+      "slug": "webce",
+      "priceRange": "$129 – $299",
+      "format": "Online",
+      "rating": 4.4,
+      "reviews": 4100,
+      "features": ["Quick completion", "Mobile-friendly", "CE courses too"],
+      "description": "Efficient insurance pre-licensing and continuing education. Get through the material quickly and get licensed.",
+      "affiliateUrl": "#",
+      "states": ["texas", "florida", "california", "new-york", "ohio", "illinois", "pennsylvania", "georgia", "arizona", "colorado"]
+    },
+    {
+      "name": "StateRequirement",
+      "slug": "staterequirement",
+      "priceRange": "$99 – $249",
+      "format": "Online",
+      "rating": 4.2,
+      "reviews": 1500,
+      "features": ["Budget option", "Self-paced", "State-specific"],
+      "description": "No-frills insurance pre-licensing education at the lowest price point. Perfect for self-starters on a budget.",
+      "affiliateUrl": "#",
+      "states": ["texas", "florida", "georgia", "ohio", "california", "virginia"]
+    }
+  ],
+  "home-inspection": [
+    {
+      "name": "InterNACHI",
+      "slug": "internachi",
+      "priceRange": "$0 – $49/month",
+      "format": "Online",
+      "rating": 4.8,
+      "reviews": 9200,
+      "features": ["Free with membership", "Extensive library", "Industry recognized"],
+      "description": "The world's largest home inspector association. Membership includes free access to all training courses and certification.",
+      "affiliateUrl": "#",
+      "states": ["california", "florida", "texas", "new-york", "ohio", "illinois", "georgia", "pennsylvania", "colorado", "virginia"]
+    },
+    {
+      "name": "AHIT (American Home Inspectors Training)",
+      "slug": "ahit",
+      "priceRange": "$595 – $1,195",
+      "format": "Online / In-Person",
+      "rating": 4.6,
+      "reviews": 4300,
+      "features": ["Live training", "Field inspections", "Business coaching"],
+      "description": "Premium home inspection training with live classroom courses, field training, and business startup coaching.",
+      "affiliateUrl": "#",
+      "states": ["florida", "texas", "california", "ohio", "georgia", "michigan", "north-carolina", "illinois", "pennsylvania"]
+    },
+    {
+      "name": "ATI Training (Home Inspector Pro)",
+      "slug": "ati-training",
+      "priceRange": "$495 – $995",
+      "format": "Online / Live Webinar",
+      "rating": 4.5,
+      "reviews": 2800,
+      "features": ["Flexible scheduling", "Report software included", "Exam prep"],
+      "description": "Comprehensive home inspection training with flexible scheduling and includes professional report-writing software.",
+      "affiliateUrl": "#",
+      "states": ["texas", "florida", "california", "ohio", "georgia", "colorado", "arizona", "virginia"]
+    },
+    {
+      "name": "Inspection Certification Associates (ICA)",
+      "slug": "ica",
+      "priceRange": "$695 – $1,495",
+      "format": "Online",
+      "rating": 4.4,
+      "reviews": 1900,
+      "features": ["All-inclusive packages", "Marketing support", "Certification included"],
+      "description": "All-in-one home inspection school that includes education, certification, report software, and business marketing tools.",
+      "affiliateUrl": "#",
+      "states": ["florida", "texas", "california", "ohio", "georgia", "illinois", "colorado", "pennsylvania"]
+    },
+    {
+      "name": "Professional Home Inspection Institute",
+      "slug": "phii",
+      "priceRange": "$549 – $899",
+      "format": "Online",
+      "rating": 4.3,
+      "reviews": 2100,
+      "features": ["Self-paced", "NHIE prep", "State-approved"],
+      "description": "State-approved online home inspection training with comprehensive NHIE exam preparation materials.",
+      "affiliateUrl": "#",
+      "states": ["california", "florida", "texas", "new-york", "ohio", "virginia", "michigan", "georgia"]
+    }
+  ]
+}

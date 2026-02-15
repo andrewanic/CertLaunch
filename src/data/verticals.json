@@ -1,0 +1,172 @@
+[
+  {
+    "slug": "real-estate",
+    "name": "Real Estate",
+    "icon": "🏠",
+    "shortDescription": "Become a licensed real estate agent or broker",
+    "description": "A real estate license opens the door to one of the most flexible, high-earning careers available — no degree required. Most states require 60-180 hours of pre-licensing education, passing a state exam, and finding a sponsoring broker. Top agents earn six figures within a few years.",
+    "avgSalary": "$49,000 – $120,000+",
+    "timeToLicense": "2 – 6 months",
+    "requirements": [
+      "Complete state-required pre-licensing coursework (60–180 hours)",
+      "Pass the state licensing exam",
+      "Find a sponsoring broker",
+      "Submit fingerprints and background check",
+      "Complete continuing education to maintain license"
+    ],
+    "faqs": [
+      {
+        "question": "How long does it take to get a real estate license?",
+        "answer": "Most people complete their pre-licensing education in 2-4 months and pass the exam within a few weeks after. You could be licensed in as little as 2 months depending on your state."
+      },
+      {
+        "question": "How much does it cost to get licensed?",
+        "answer": "Total costs typically range from $500-$1,500, including coursework ($200-$700), exam fees ($50-$100), license application ($100-$300), and background check ($50-$100)."
+      },
+      {
+        "question": "Do I need a college degree?",
+        "answer": "No. Most states only require that you be 18-19 years old and have a high school diploma or GED. No college degree is needed."
+      },
+      {
+        "question": "Can I take the courses online?",
+        "answer": "Yes! Most states approve online pre-licensing courses. This is the most popular option for flexibility and affordability."
+      }
+    ]
+  },
+  {
+    "slug": "mortgage-loan-officer",
+    "name": "Mortgage Loan Officer (MLO)",
+    "icon": "🏦",
+    "shortDescription": "Help people finance their homes as a licensed MLO",
+    "description": "Mortgage Loan Officers (MLOs) help borrowers navigate the home financing process. The SAFE Act requires all MLOs to complete 20 hours of NMLS-approved pre-licensing education, pass the SAFE MLO exam, and register through the NMLS. Many states have additional requirements. MLOs can earn excellent income through commissions.",
+    "avgSalary": "$45,000 – $150,000+",
+    "timeToLicense": "1 – 3 months",
+    "requirements": [
+      "Complete 20 hours of NMLS-approved pre-licensing education",
+      "Pass the SAFE MLO National Exam",
+      "Register through the NMLS",
+      "Complete state-specific requirements",
+      "Submit to background check and credit report"
+    ],
+    "faqs": [
+      {
+        "question": "What is the NMLS?",
+        "answer": "The Nationwide Multistate Licensing System (NMLS) is the system through which all mortgage loan originators are registered and licensed. You'll create an NMLS account as part of your licensing process."
+      },
+      {
+        "question": "Is the MLO exam hard?",
+        "answer": "The SAFE MLO exam has a pass rate of about 55-60% on the first attempt. With proper preparation through a quality course, most people pass within 1-2 attempts."
+      },
+      {
+        "question": "How much can MLOs earn?",
+        "answer": "Entry-level MLOs typically earn $45,000-$65,000. Experienced MLOs with a strong pipeline can earn $100,000-$200,000+ annually through commissions."
+      },
+      {
+        "question": "Do I need a degree?",
+        "answer": "No degree is required. You need to be at least 18, complete the required education, pass the exam, and clear a background/credit check."
+      }
+    ]
+  },
+  {
+    "slug": "appraisal",
+    "name": "Appraisal",
+    "icon": "📋",
+    "shortDescription": "Value properties as a licensed appraiser",
+    "description": "Real estate appraisers determine the market value of properties for purchases, refinances, and other transactions. The path starts as a Trainee Appraiser, progressing to Licensed, Certified Residential, and Certified General levels. It's a stable career with growing demand.",
+    "avgSalary": "$40,000 – $100,000+",
+    "timeToLicense": "3 – 6 months (trainee level)",
+    "requirements": [
+      "Complete required qualifying education hours (75+ hours for trainee)",
+      "Find a supervising appraiser",
+      "Accumulate experience hours under supervision",
+      "Pass the appropriate licensing exam",
+      "Apply for state credential"
+    ],
+    "faqs": [
+      {
+        "question": "How do I become an appraiser?",
+        "answer": "Start by completing 75 hours of qualifying education, then find a supervising appraiser to work under while gaining experience. You can work as a trainee while building toward higher credentials."
+      },
+      {
+        "question": "What are the different appraiser levels?",
+        "answer": "There are four levels: Trainee (75 hours education), Licensed Residential (150 hours + 1,000 experience hours), Certified Residential (200 hours + 1,500 experience hours), and Certified General (300 hours + 3,000 experience hours)."
+      },
+      {
+        "question": "Is there demand for appraisers?",
+        "answer": "Yes! The appraisal industry faces a significant shortage of new appraisers. Many current appraisers are nearing retirement, creating excellent opportunities for newcomers."
+      },
+      {
+        "question": "Can I do this part-time?",
+        "answer": "Yes. Many trainee appraisers start part-time while working another job or completing their education. The flexibility increases as you gain experience."
+      }
+    ]
+  },
+  {
+    "slug": "insurance",
+    "name": "Insurance",
+    "icon": "🛡️",
+    "shortDescription": "Sell insurance policies as a licensed agent",
+    "description": "Insurance agents sell life, health, property, and casualty insurance policies. Each line of insurance requires its own license in most states. The barrier to entry is low — complete a pre-licensing course and pass a state exam. Top agents build significant recurring income through renewals.",
+    "avgSalary": "$35,000 – $100,000+",
+    "timeToLicense": "1 – 2 months",
+    "requirements": [
+      "Complete state pre-licensing education (20-40 hours per line)",
+      "Pass the state licensing exam",
+      "Get appointed with insurance carriers",
+      "Submit background check",
+      "Complete continuing education for renewals"
+    ],
+    "faqs": [
+      {
+        "question": "What types of insurance licenses are there?",
+        "answer": "The main types are Life, Health, Property, and Casualty. Many agents get a Property & Casualty (P&C) combined license or a Life & Health combined license. You can hold multiple licenses."
+      },
+      {
+        "question": "How quickly can I start earning?",
+        "answer": "Many agents start earning within their first month of being licensed. Commission-based roles mean your income scales with your effort and client base."
+      },
+      {
+        "question": "Is insurance a good career?",
+        "answer": "Insurance offers strong income potential, flexibility, and job security. Renewals create recurring income, and top agents can build their own agencies."
+      },
+      {
+        "question": "Do I need a degree?",
+        "answer": "No. Most states require only a high school diploma, pre-licensing education, and passing the state exam."
+      }
+    ]
+  },
+  {
+    "slug": "home-inspection",
+    "name": "Home Inspection",
+    "icon": "🔍",
+    "shortDescription": "Inspect properties and protect homebuyers",
+    "description": "Home inspectors evaluate the condition of residential properties before purchase. Most states require training, field experience, and passing an exam (often the National Home Inspector Exam). It's a hands-on career with independence and strong earning potential.",
+    "avgSalary": "$40,000 – $90,000+",
+    "timeToLicense": "2 – 4 months",
+    "requirements": [
+      "Complete state-approved training (60-200 hours depending on state)",
+      "Complete field training / ride-along inspections",
+      "Pass the National Home Inspector Exam (NHIE) or state exam",
+      "Obtain errors & omissions insurance",
+      "Apply for state license/certification"
+    ],
+    "faqs": [
+      {
+        "question": "What does a home inspector do?",
+        "answer": "Home inspectors evaluate the major systems of a home — roof, foundation, plumbing, electrical, HVAC, and more — and provide a detailed report to the buyer about the property's condition."
+      },
+      {
+        "question": "Can I be my own boss?",
+        "answer": "Absolutely. Most home inspectors are self-employed or run small businesses. You set your own schedule and rates. Many inspectors work 3-5 days a week and earn a great living."
+      },
+      {
+        "question": "What is the NHIE?",
+        "answer": "The National Home Inspector Exam is used by most states as the licensing exam. It's a 200-question multiple choice test covering all aspects of home inspection."
+      },
+      {
+        "question": "How much can I charge per inspection?",
+        "answer": "Most inspectors charge $300-$500 per inspection, with additional fees for larger homes or add-on services like radon testing. Full-time inspectors doing 3-4 inspections per week earn $50,000-$90,000+."
+      }
+    ]
+  }
+]
