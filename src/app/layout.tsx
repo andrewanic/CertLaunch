@@ -1,19 +1,19 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import { Inter, DM_Sans } from "next/font/google";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import "./globals.css";
 
-const geistSans = Geist({ variable: "--font-geist-sans", subsets: ["latin"] });
-const geistMono = Geist_Mono({ variable: "--font-geist-mono", subsets: ["latin"] });
+const inter = Inter({ variable: "--font-inter", subsets: ["latin"] });
+const dmSans = DM_Sans({ variable: "--font-dm-sans", subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "CertLaunch — Launch Your Career. Skip the Degree.",
-  description: "Compare licensing courses and certification programs. Find the fastest, most affordable path to a licensed career in real estate, mortgage, insurance, appraisal, and more.",
-  keywords: "licensing courses, certification, real estate license, MLO license, insurance license, career change, no degree required",
+  title: "CertLaunch — Compare Verified Licensing Schools & Save",
+  description: "Compare approved licensing schools side-by-side. Access exclusive discount codes for Real Estate, MLO, Appraisal, Insurance, and Home Inspection courses.",
+  keywords: "licensing courses, certification, real estate license, MLO license, insurance license, career change, compare schools",
   openGraph: {
-    title: "CertLaunch — Launch Your Career. Skip the Degree.",
-    description: "Compare licensing courses and certification programs. Start a new career without overpriced college.",
+    title: "CertLaunch — Compare Verified Licensing Schools & Save",
+    description: "Compare approved licensing schools side-by-side. Access exclusive discount codes.",
     type: "website",
     siteName: "CertLaunch",
   },
@@ -21,10 +21,10 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en">
-      <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
+    <html lang="en" className="scroll-smooth">
+      <body className={`${inter.variable} ${dmSans.variable} bg-white text-neutral-800 font-sans antialiased`}>
         <Navbar />
-        <main className="min-h-screen">{children}</main>
+        <main>{children}</main>
         <Footer />
       </body>
     </html>
