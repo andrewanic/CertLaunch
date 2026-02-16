@@ -1,0 +1,86 @@
+{
+  "agents": [
+    {
+      "id": "luka",
+      "name": "Luka",
+      "role": "CEO / Orchestrator",
+      "model": "Claude Opus 4.6",
+      "emoji": "🧠",
+      "color": "#1a365d",
+      "responsibilities": ["Strategy & decisions", "Quality review", "Communication with Andrew", "Task delegation", "Mission Control oversight"]
+    },
+    {
+      "id": "content",
+      "name": "Content Agent",
+      "role": "Content Lead",
+      "model": "Claude Sonnet 4",
+      "emoji": "✍️",
+      "color": "#38b2ac",
+      "responsibilities": ["School profiles", "Comparison content", "Licensing guides", "Blog posts", "Email copy", "Marketing copy"]
+    },
+    {
+      "id": "seo",
+      "name": "SEO Agent",
+      "role": "SEO Lead",
+      "model": "Claude Sonnet 4",
+      "emoji": "🔍",
+      "color": "#805ad5",
+      "responsibilities": ["Keyword research", "Page optimization", "Content briefs", "Ranking tracking", "Technical SEO", "Internal linking"]
+    },
+    {
+      "id": "outreach",
+      "name": "Outreach Agent",
+      "role": "Partnerships Lead",
+      "model": "Claude Sonnet 4",
+      "emoji": "📧",
+      "color": "#dd6b20",
+      "responsibilities": ["School contact research", "Affiliate outreach emails", "Follow-up sequences", "Discount negotiation", "Relationship management"]
+    },
+    {
+      "id": "research",
+      "name": "Research Agent",
+      "role": "Research Lead",
+      "model": "Claude Sonnet 4",
+      "emoji": "🔬",
+      "color": "#e53e3e",
+      "responsibilities": ["Competitor monitoring", "School discovery", "Licensing requirements", "Market data", "Accreditation verification", "Review monitoring"]
+    },
+    {
+      "id": "dev",
+      "name": "Dev Agent",
+      "role": "Engineering Lead",
+      "model": "Claude Sonnet 4",
+      "emoji": "💻",
+      "color": "#3182ce",
+      "responsibilities": ["Website builds", "New features", "Bug fixes", "Dashboard", "Data pipelines", "Analytics"]
+    }
+  ],
+  "tasks": [
+    {"id": 1, "title": "Business Strategy & Org Chart", "agent": "luka", "status": "completed", "priority": "critical", "created": "2026-02-15", "completed": "2026-02-15"},
+    {"id": 2, "title": "Mission Control Dashboard", "agent": "dev", "status": "progress", "priority": "critical", "created": "2026-02-15"},
+    {"id": 3, "title": "Deep Competitor Research", "agent": "research", "status": "queued", "priority": "high", "created": "2026-02-15"},
+    {"id": 4, "title": "School Research - Real Estate (all states)", "agent": "research", "status": "queued", "priority": "high", "created": "2026-02-15"},
+    {"id": 5, "title": "School Research - MLO (all states)", "agent": "research", "status": "queued", "priority": "high", "created": "2026-02-15"},
+    {"id": 6, "title": "School Research - Insurance", "agent": "research", "status": "queued", "priority": "high", "created": "2026-02-15"},
+    {"id": 7, "title": "School Research - Appraisal", "agent": "research", "status": "queued", "priority": "medium", "created": "2026-02-15"},
+    {"id": 8, "title": "School Research - Home Inspection", "agent": "research", "status": "queued", "priority": "medium", "created": "2026-02-15"},
+    {"id": 9, "title": "Logo Finalization", "agent": "luka", "status": "waiting", "priority": "high", "created": "2026-02-15", "note": "Awaiting Andrew feedback on v2 logos"},
+    {"id": 10, "title": "Site Design Overhaul (Coursera/Udemy/NerdWallet polish)", "agent": "dev", "status": "queued", "priority": "high", "created": "2026-02-15"},
+    {"id": 11, "title": "RealEstateU Listed First in Applicable States", "agent": "dev", "status": "queued", "priority": "high", "created": "2026-02-15"},
+    {"id": 12, "title": "Affiliate Outreach Plan & Email Templates", "agent": "outreach", "status": "queued", "priority": "high", "created": "2026-02-15"},
+    {"id": 13, "title": "SEO Content Plan (1000+ pages)", "agent": "seo", "status": "queued", "priority": "medium", "created": "2026-02-15"},
+    {"id": 14, "title": "Licensing Guides - All States x All Verticals", "agent": "content", "status": "queued", "priority": "medium", "created": "2026-02-15"},
+    {"id": 15, "title": "Email Capture + Lead Magnet Setup", "agent": "dev", "status": "queued", "priority": "medium", "created": "2026-02-15"},
+    {"id": 16, "title": "Discount Code Pricing Display on Site", "agent": "dev", "status": "queued", "priority": "medium", "created": "2026-02-15"},
+    {"id": 17, "title": "Page Mockups (4 remaining)", "agent": "dev", "status": "queued", "priority": "low", "created": "2026-02-15"},
+    {"id": 18, "title": "Marketing Plan (Paid + Social + Email)", "agent": "luka", "status": "queued", "priority": "medium", "created": "2026-02-15"}
+  ],
+  "stats": {
+    "completed": 1,
+    "inProgress": 1,
+    "queued": 15,
+    "waiting": 1,
+    "totalAgents": 6
+  },
+  "lastUpdated": "2026-02-15T17:50:00Z"
+}
