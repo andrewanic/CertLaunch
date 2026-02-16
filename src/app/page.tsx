@@ -17,17 +17,18 @@ const categories = [
   { emoji: '✍️', name: 'Notary', desc: 'Notary public training, exam prep, and renewal courses for every state.', savings: 'Save up to $60', bg: 'bg-teal-50' },
 ];
 
-const trustBadges = [
-  'No pay-to-rank',
-  'Prices never inflated',
-  'Real student reviews',
-  'Editorially independent',
-];
-
 function CheckIcon({ className }: { className?: string }) {
   return (
     <svg className={className || 'w-4 h-4 text-accent-500'} fill="currentColor" viewBox="0 0 20 20">
       <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
+    </svg>
+  );
+}
+
+function ShieldIcon() {
+  return (
+    <svg className="w-4 h-4 text-brand-500" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
+      <path strokeLinecap="round" strokeLinejoin="round" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
     </svg>
   );
 }
@@ -40,36 +41,32 @@ export default function Home() {
         <div className="max-w-6xl mx-auto px-4 sm:px-6">
           <div className="max-w-3xl mx-auto text-center">
             <h1 className="font-display font-extrabold text-3xl sm:text-4xl md:text-5xl lg:text-[3.5rem] leading-tight text-white mb-4">
-              Compare Verified<br className="hidden sm:block" /> Licensing Schools
+              Compare Verified Schools.<br className="hidden sm:block" />
+              <span className="text-accent-400">Pay Less for Your License.</span>
             </h1>
-            <p className="text-lg sm:text-xl text-blue-200 leading-relaxed mb-3 max-w-2xl mx-auto">
-              The trusted marketplace for career switchers. Compare state-approved schools side&#8209;by&#8209;side — then save with exclusive discount codes you won&apos;t find anywhere else.
-            </p>
-            <p className="inline-flex items-center justify-center gap-2 text-sm font-semibold text-accent-400 mb-8">
-              <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
-                <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.286 3.957a1 1 0 00.95.69h4.162c.969 0 1.371 1.24.588 1.81l-3.37 2.448a1 1 0 00-.364 1.118l1.287 3.957c.3.921-.755 1.688-1.54 1.118l-3.37-2.448a1 1 0 00-1.176 0l-3.37 2.448c-.784.57-1.838-.197-1.539-1.118l1.287-3.957a1 1 0 00-.364-1.118L2.063 9.384c-.783-.57-.38-1.81.588-1.81h4.162a1 1 0 00.95-.69l1.286-3.957z" />
-              </svg>
-              Students save $127 on average
+            <p className="text-lg sm:text-xl text-blue-200 leading-relaxed mb-8 max-w-2xl mx-auto">
+              The trusted marketplace for career switchers. Compare state-approved licensing schools side&#8209;by&#8209;side, then save with exclusive discount codes you won&apos;t find anywhere else.
             </p>
 
             {/* Selector Card */}
-            <div className="bg-white rounded-2xl p-5 sm:p-6 shadow-2xl shadow-black/20 max-w-xl mx-auto text-left">
-              <p className="text-sm font-semibold text-neutral-800 mb-4">Find your school in 30 seconds:</p>
+            <div id="hero-cta" className="bg-white rounded-2xl p-6 sm:p-8 shadow-2xl shadow-black/20 max-w-xl mx-auto text-left">
+              <p className="text-base font-semibold text-neutral-800 mb-5">Find the best school at the lowest price:</p>
               <div className="grid sm:grid-cols-2 gap-3 mb-4">
                 <div>
                   <label className="block text-xs font-medium text-neutral-500 mb-1.5">License Type</label>
-                  <select className="w-full border border-neutral-300 rounded-lg px-3 py-2.5 text-sm text-neutral-800 bg-white focus:outline-none focus:ring-2 focus:ring-brand-500 focus:border-transparent pr-8 appearance-none">
+                  <select className="w-full border border-neutral-300 rounded-lg px-3 py-3 text-sm text-neutral-800 bg-white focus:outline-none focus:ring-2 focus:ring-brand-500 focus:border-transparent pr-8 appearance-none">
                     <option value="">Select license…</option>
                     <option>Real Estate Agent</option>
                     <option>Mortgage Loan Originator (MLO)</option>
                     <option>Appraiser</option>
                     <option>Insurance Producer</option>
                     <option>Home Inspector</option>
+                    <option>Notary</option>
                   </select>
                 </div>
                 <div>
                   <label className="block text-xs font-medium text-neutral-500 mb-1.5">Your State</label>
-                  <select className="w-full border border-neutral-300 rounded-lg px-3 py-2.5 text-sm text-neutral-800 bg-white focus:outline-none focus:ring-2 focus:ring-brand-500 focus:border-transparent pr-8 appearance-none">
+                  <select className="w-full border border-neutral-300 rounded-lg px-3 py-3 text-sm text-neutral-800 bg-white focus:outline-none focus:ring-2 focus:ring-brand-500 focus:border-transparent pr-8 appearance-none">
                     <option value="">Select state…</option>
                     {US_STATES.map((s) => (
                       <option key={s}>{s}</option>
@@ -77,17 +74,32 @@ export default function Home() {
                   </select>
                 </div>
               </div>
-              <button className="w-full bg-brand-600 hover:bg-brand-700 text-white font-semibold text-sm py-3 rounded-lg transition-colors">
+              <button className="w-full bg-brand-600 hover:bg-brand-700 text-white font-bold text-base py-3.5 rounded-lg transition-colors shadow-lg shadow-brand-600/25">
                 Compare Schools &amp; See Discounts →
               </button>
-              <p className="text-xs text-neutral-400 text-center mt-3">Free to use · No account required · All schools state-approved</p>
+              
+              {/* Trust badges under CTA */}
+              <div className="flex flex-wrap justify-center gap-4 mt-5 pt-4 border-t border-neutral-100">
+                <span className="flex items-center gap-1.5 text-xs font-medium text-neutral-500">
+                  <ShieldIcon />
+                  Verified Providers
+                </span>
+                <span className="flex items-center gap-1.5 text-xs font-medium text-neutral-500">
+                  <CheckIcon className="w-4 h-4 text-accent-500" />
+                  Exclusive Discount Codes
+                </span>
+                <span className="flex items-center gap-1.5 text-xs font-medium text-neutral-500">
+                  <CheckIcon className="w-4 h-4 text-accent-500" />
+                  State-Approved Schools
+                </span>
+              </div>
             </div>
           </div>
         </div>
       </section>
 
       {/* ============ SOCIAL PROOF BAR ============ */}
-      <section className="bg-neutral-50 border-b border-neutral-200 py-6">
+      <section className="bg-neutral-50 border-b border-neutral-200 py-5">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 flex flex-wrap items-center justify-center gap-x-10 gap-y-3 text-sm text-neutral-500">
           <div className="flex items-center gap-2">
             <CheckIcon />
@@ -97,11 +109,19 @@ export default function Home() {
             <CheckIcon />
             <span><strong className="text-neutral-700">100%</strong> state-approved schools</span>
           </div>
+          <div className="flex items-center gap-2">
+            <CheckIcon />
+            <span>Unbiased comparisons</span>
+          </div>
+          <div className="flex items-center gap-2">
+            <CheckIcon />
+            <span>Exclusive discount codes</span>
+          </div>
         </div>
       </section>
 
       {/* ============ HOW IT WORKS ============ */}
-      <section className="py-16 sm:py-24">
+      <section id="how-it-works" className="py-16 sm:py-24">
         <div className="max-w-6xl mx-auto px-4 sm:px-6">
           <div className="text-center mb-12 sm:mb-16">
             <p className="text-sm font-semibold text-brand-600 uppercase tracking-wide mb-2">How It Works</p>
@@ -126,7 +146,7 @@ export default function Home() {
       </section>
 
       {/* ============ LICENSE CATEGORIES ============ */}
-      <section className="py-16 sm:py-24 bg-neutral-50">
+      <section id="categories" className="py-16 sm:py-24 bg-neutral-50">
         <div className="max-w-6xl mx-auto px-4 sm:px-6">
           <div className="text-center mb-12 sm:mb-16">
             <p className="text-sm font-semibold text-brand-600 uppercase tracking-wide mb-2">License Categories</p>
@@ -136,7 +156,7 @@ export default function Home() {
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
             {categories.map((cat) => (
               <a key={cat.name} href="#" className="card-hover bg-white rounded-xl border border-neutral-200 p-6 block">
-                <div className={`w-10 h-10 rounded-lg ${cat.bg} flex items-center justify-center mb-4 text-2xl`}>
+                <div className={`w-12 h-12 rounded-xl ${cat.bg} flex items-center justify-center mb-4 text-2xl`}>
                   {cat.emoji}
                 </div>
                 <h3 className="font-display font-bold text-neutral-900 mb-1">{cat.name}</h3>
@@ -151,16 +171,19 @@ export default function Home() {
       </section>
 
       {/* ============ TRANSPARENCY ============ */}
-      <section className="py-16 sm:py-24 bg-neutral-50 border-y border-neutral-200">
+      <section className="py-16 sm:py-24 border-y border-neutral-200">
         <div className="max-w-3xl mx-auto px-4 sm:px-6 text-center">
           <p className="text-sm font-semibold text-brand-600 uppercase tracking-wide mb-2">Transparency</p>
           <h2 className="font-display font-bold text-2xl sm:text-3xl text-neutral-900 mb-4">How we make money</h2>
+          <p className="text-neutral-500 leading-relaxed mb-4">
+            CertLaunch earns a referral fee when you enroll through our links. This never changes the price you pay — in fact, our exclusive codes make it <em>lower</em>.
+          </p>
           <p className="text-neutral-500 leading-relaxed mb-8">
-            CertLaunch earns a referral fee when you enroll through our links. This never changes the price you pay — in fact, our exclusive codes make it <em>lower</em>. We refuse to rank schools by commission. Our comparisons are honest, and our incentives are aligned with yours: helping you find the best school at the best price.
+            We refuse to rank schools by commission. Our comparisons are honest, and our incentives are aligned with yours: helping you find the best school at the best price. That&apos;s how we earn your trust — and your business.
           </p>
           <div className="flex flex-wrap justify-center gap-4">
-            {trustBadges.map((badge) => (
-              <div key={badge} className="flex items-center gap-2 text-sm text-neutral-600 bg-white rounded-full px-4 py-2 border border-neutral-200">
+            {['No pay-to-rank', 'Prices never inflated', 'Real student reviews', 'Editorially independent'].map((badge) => (
+              <div key={badge} className="flex items-center gap-2 text-sm text-neutral-600 bg-neutral-50 rounded-full px-4 py-2 border border-neutral-200">
                 <CheckIcon />
                 {badge}
               </div>
@@ -173,22 +196,25 @@ export default function Home() {
       <section className="py-16 sm:py-24">
         <div className="max-w-6xl mx-auto px-4 sm:px-6">
           <div className="bg-brand-900 rounded-2xl p-8 sm:p-12 text-center">
-            <h2 className="font-display font-bold text-2xl sm:text-3xl text-white mb-3">Get the free Licensing Roadmap</h2>
-            <p className="text-blue-200 max-w-lg mx-auto mb-6">
-              A step-by-step PDF covering requirements, timelines, costs, and the best school for your state. Plus exclusive discount codes delivered to your inbox.
+            <p className="text-sm font-semibold text-accent-400 uppercase tracking-wide mb-3">Free — Personalized for Your State</p>
+            <h2 className="font-display font-bold text-2xl sm:text-3xl text-white mb-3">
+              Get Your License Launch Plan + Best Discount Code
+            </h2>
+            <p className="text-blue-200 max-w-lg mx-auto mb-8">
+              A personalized step-by-step PDF covering your state&apos;s requirements, timelines, costs, top-rated schools, and an exclusive discount code. Built for your license type.
             </p>
-            <form className="flex flex-col sm:flex-row gap-3 max-w-md mx-auto">
+            <form className="flex flex-col sm:flex-row gap-3 max-w-lg mx-auto">
               <input
                 type="email"
                 placeholder="you@email.com"
                 required
-                className="flex-1 rounded-lg px-4 py-3 text-sm bg-white text-neutral-800 placeholder-neutral-400 focus:outline-none focus:ring-2 focus:ring-accent-400"
+                className="flex-1 rounded-lg px-4 py-3.5 text-sm bg-white text-neutral-800 placeholder-neutral-400 focus:outline-none focus:ring-2 focus:ring-accent-400"
               />
               <button
                 type="submit"
-                className="bg-accent-500 hover:bg-accent-600 text-white font-semibold text-sm px-6 py-3 rounded-lg transition-colors whitespace-nowrap"
+                className="bg-accent-500 hover:bg-accent-600 text-white font-bold text-sm px-8 py-3.5 rounded-lg transition-colors whitespace-nowrap shadow-lg shadow-accent-500/25"
               >
-                Send My Roadmap
+                Get My Free Plan →
               </button>
             </form>
             <p className="text-xs text-blue-300 mt-4">No spam. Unsubscribe anytime. We respect your inbox.</p>

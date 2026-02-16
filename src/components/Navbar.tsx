@@ -17,25 +17,14 @@ export default function Navbar() {
           <span className="font-display font-bold text-xl text-neutral-900">CertLaunch</span>
         </Link>
 
-        {/* Desktop: centered email capture */}
-        <form className="hidden sm:flex items-center gap-3 flex-1 justify-center max-w-lg mx-auto">
-          <span className="text-xs font-medium text-neutral-500 whitespace-nowrap">Free Licensing Roadmap →</span>
-          <input
-            type="email"
-            placeholder="you@email.com"
-            required
-            className="flex-1 min-w-0 border border-neutral-300 rounded-lg px-3 py-2 text-sm text-neutral-800 bg-white focus:outline-none focus:ring-2 focus:ring-accent-400 focus:border-transparent placeholder-neutral-400"
-          />
-          <button
-            type="submit"
-            className="bg-accent-500 hover:bg-accent-600 text-white text-sm font-semibold px-5 py-2 rounded-lg transition-colors whitespace-nowrap"
-          >
-            Send My Roadmap
-          </button>
-        </form>
-
-        {/* Spacer for balance */}
-        <div className="w-[140px] hidden sm:block" />
+        {/* Desktop: sticky CTA */}
+        <div className="hidden sm:flex items-center gap-6">
+          <a href="#how-it-works" className="text-sm font-medium text-neutral-500 hover:text-neutral-800 transition-colors">How It Works</a>
+          <a href="#categories" className="text-sm font-medium text-neutral-500 hover:text-neutral-800 transition-colors">Licenses</a>
+          <a href="#hero-cta" className="bg-brand-600 hover:bg-brand-700 text-white text-sm font-semibold px-5 py-2.5 rounded-lg transition-colors">
+            Compare Schools
+          </a>
+        </div>
 
         {/* Mobile menu button */}
         <button
@@ -54,22 +43,12 @@ export default function Navbar() {
 
       {/* Mobile menu */}
       {mobileOpen && (
-        <div className="sm:hidden border-t border-neutral-200 bg-white px-4 py-4">
-          <p className="text-xs font-medium text-neutral-500 mb-2">Free Licensing Roadmap →</p>
-          <form className="flex flex-col gap-2">
-            <input
-              type="email"
-              placeholder="you@email.com"
-              required
-              className="border border-neutral-300 rounded-lg px-3 py-2 text-sm text-neutral-800 bg-white focus:outline-none focus:ring-2 focus:ring-accent-400 focus:border-transparent placeholder-neutral-400"
-            />
-            <button
-              type="submit"
-              className="bg-accent-500 hover:bg-accent-600 text-white text-sm font-semibold px-5 py-2 rounded-lg transition-colors"
-            >
-              Send My Roadmap
-            </button>
-          </form>
+        <div className="sm:hidden border-t border-neutral-200 bg-white px-4 py-4 space-y-3">
+          <a href="#how-it-works" className="block text-sm font-medium text-neutral-600 py-2" onClick={() => setMobileOpen(false)}>How It Works</a>
+          <a href="#categories" className="block text-sm font-medium text-neutral-600 py-2" onClick={() => setMobileOpen(false)}>Licenses</a>
+          <a href="#hero-cta" className="block w-full text-center bg-brand-600 hover:bg-brand-700 text-white text-sm font-semibold px-5 py-3 rounded-lg transition-colors" onClick={() => setMobileOpen(false)}>
+            Compare Schools
+          </a>
         </div>
       )}
     </nav>
