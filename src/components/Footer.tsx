@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Logo from './Logo';
 
 export default function Footer() {
   return (
@@ -7,11 +8,8 @@ export default function Footer() {
         <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-8 mb-10">
           {/* Brand */}
           <div>
-            <div className="flex items-center gap-2 mb-4">
-              <div className="w-7 h-7 rounded-md bg-brand-600 flex items-center justify-center">
-                <span className="text-white font-bold text-xs">CL</span>
-              </div>
-              <span className="font-display font-bold text-lg text-neutral-900">CertLaunch</span>
+            <div className="mb-4">
+              <Logo className="h-7" />
             </div>
             <p className="text-sm text-neutral-500 leading-relaxed">
               The verified marketplace for licensing education. Compare schools, save money, launch your career.

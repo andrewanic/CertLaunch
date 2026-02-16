@@ -1,11 +1,11 @@
 'use client';
 
-import Link from 'next/link';
 import { useState, useEffect } from 'react';
+import Logo from './Logo';
 
 export default function Navbar() {
-  const [mobileOpen, setMobileOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
+  const [modalOpen, setModalOpen] = useState(false);
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 80);
@@ -15,55 +15,96 @@ export default function Navbar() {
 
   return (
     <>
-      {/* Desktop sticky nav */}
       <nav className={`fixed top-0 w-full z-50 transition-all duration-200 ${scrolled ? 'bg-white shadow-sm border-b border-neutral-200' : 'bg-white/95 backdrop-blur-sm border-b border-neutral-200'}`}>
         <div className="max-w-6xl mx-auto px-4 sm:px-6 h-16 flex items-center justify-between">
-          <Link href="/" className="flex items-center gap-2 flex-shrink-0">
-            <div className="w-8 h-8 rounded-lg bg-brand-600 flex items-center justify-center">
-              <span className="text-white font-bold text-sm">CL</span>
-            </div>
-            <span className="font-display font-bold text-xl text-neutral-900">CertLaunch</span>
-          </Link>
-
-          <div className="hidden sm:flex items-center gap-6">
-            <a href="#how-it-works" className="text-sm font-medium text-neutral-500 hover:text-neutral-800 transition-colors">How It Works</a>
-            <a href="#categories" className="text-sm font-medium text-neutral-500 hover:text-neutral-800 transition-colors">Licenses</a>
-            <a href="#hero-cta" className="bg-brand-600 hover:bg-brand-700 text-white text-sm font-semibold px-5 py-2.5 rounded-lg transition-colors shadow-sm">
-              Compare Schools
-            </a>
-          </div>
-
+          <a href="/">
+            <Logo />
+          </a>
           <button
-            className="sm:hidden p-2 rounded-lg hover:bg-neutral-100"
-            onClick={() => setMobileOpen(!mobileOpen)}
+            onClick={() => setModalOpen(true)}
+            className="bg-brand-600 hover:bg-brand-700 text-white text-sm font-semibold px-5 py-2.5 rounded-lg transition-colors"
           >
-            <svg className="w-6 h-6 text-neutral-800" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              {mobileOpen ? (
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
-              ) : (
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
-              )}
-            </svg>
+            Get My License Plan
           </button>
         </div>
-
-        {mobileOpen && (
-          <div className="sm:hidden border-t border-neutral-200 bg-white px-4 py-4 space-y-3">
-            <a href="#how-it-works" className="block text-sm font-medium text-neutral-600 py-2" onClick={() => setMobileOpen(false)}>How It Works</a>
-            <a href="#categories" className="block text-sm font-medium text-neutral-600 py-2" onClick={() => setMobileOpen(false)}>Licenses</a>
-            <a href="#hero-cta" className="block w-full text-center bg-brand-600 hover:bg-brand-700 text-white text-sm font-semibold px-5 py-3 rounded-lg transition-colors" onClick={() => setMobileOpen(false)}>
-              Compare Schools
-            </a>
-          </div>
-        )}
       </nav>
 
-      {/* Mobile sticky bottom CTA bar */}
+      {/* Mobile sticky bottom CTA */}
       <div className="sm:hidden fixed bottom-0 left-0 right-0 z-50 bg-white border-t border-neutral-200 px-4 py-3 safe-area-bottom">
-        <a href="#hero-cta" className="block w-full text-center bg-brand-600 hover:bg-brand-700 text-white text-sm font-bold py-3 rounded-lg transition-colors shadow-lg shadow-brand-600/20">
-          See Discounts
-        </a>
+        <button
+          onClick={() => setModalOpen(true)}
+          className="block w-full text-center bg-brand-600 hover:bg-brand-700 text-white text-sm font-bold py-3 rounded-lg transition-colors shadow-lg shadow-brand-600/20"
+        >
+          Get My License Plan
+        </button>
       </div>
+
+      {/* Email Capture Modal */}
+      {modalOpen && (
+        <div className="fixed inset-0 z-[100] flex items-center justify-center p-4" onClick={() => setModalOpen(false)}>
+          <div className="absolute inset-0 bg-black/40 backdrop-blur-sm" />
+          <div
+            className="relative bg-white rounded-2xl shadow-2xl max-w-md w-full p-6 sm:p-8"
+            onClick={(e) => e.stopPropagation()}
+          >
+            <button
+              onClick={() => setModalOpen(false)}
+              className="absolute top-4 right-4 text-neutral-400 hover:text-neutral-600 text-xl leading-none"
+            >
+              ×
+            </button>
+
+            <div className="text-center mb-6">
+              <h2 className="font-display font-bold text-xl text-neutral-900 mb-2">
+                Get Your Personalized License Launch Plan
+              </h2>
+              <p className="text-sm text-neutral-500 leading-relaxed">
+                Answer 3 quick questions and we&apos;ll send you a custom roadmap for your state — including recommended schools and exclusive discounts.
+              </p>
+            </div>
+
+            <form className="space-y-3">
+              <div>
+                <label className="block text-xs font-medium text-neutral-500 mb-1.5">License Type</label>
+                <select className="w-full border border-neutral-300 rounded-lg px-3 py-3 text-sm text-neutral-800 bg-white focus:outline-none focus:ring-2 focus:ring-brand-500 focus:border-transparent appearance-none">
+                  <option value="">Select license…</option>
+                  <option>Real Estate Agent</option>
+                  <option>Mortgage Loan Originator (MLO)</option>
+                  <option>Appraiser</option>
+                  <option>Insurance Producer</option>
+                  <option>Home Inspector</option>
+                  <option>Notary</option>
+                </select>
+              </div>
+              <div>
+                <label className="block text-xs font-medium text-neutral-500 mb-1.5">Your State</label>
+                <select className="w-full border border-neutral-300 rounded-lg px-3 py-3 text-sm text-neutral-800 bg-white focus:outline-none focus:ring-2 focus:ring-brand-500 focus:border-transparent appearance-none">
+                  <option value="">Select state…</option>
+                  {['Alabama','Alaska','Arizona','Arkansas','California','Colorado','Connecticut','Delaware','Florida','Georgia','Hawaii','Idaho','Illinois','Indiana','Iowa','Kansas','Kentucky','Louisiana','Maine','Maryland','Massachusetts','Michigan','Minnesota','Mississippi','Missouri','Montana','Nebraska','Nevada','New Hampshire','New Jersey','New Mexico','New York','North Carolina','North Dakota','Ohio','Oklahoma','Oregon','Pennsylvania','Rhode Island','South Carolina','South Dakota','Tennessee','Texas','Utah','Vermont','Virginia','Washington','West Virginia','Wisconsin','Wyoming'].map((s) => (
+                    <option key={s}>{s}</option>
+                  ))}
+                </select>
+              </div>
+              <div>
+                <label className="block text-xs font-medium text-neutral-500 mb-1.5">Email</label>
+                <input
+                  type="email"
+                  placeholder="you@email.com"
+                  required
+                  className="w-full border border-neutral-300 rounded-lg px-3 py-3 text-sm text-neutral-800 bg-white focus:outline-none focus:ring-2 focus:ring-brand-500 focus:border-transparent placeholder-neutral-400"
+                />
+              </div>
+              <button
+                type="submit"
+                className="w-full bg-accent-500 hover:bg-accent-600 text-white font-bold text-sm py-3.5 rounded-lg transition-colors"
+              >
+                Get My Personalized Plan
+              </button>
+              <p className="text-xs text-neutral-400 text-center">We&apos;ll never spam you.</p>
+            </form>
+          </div>
+        </div>
+      )}
     </>
   );
 }

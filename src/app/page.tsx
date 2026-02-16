@@ -40,7 +40,7 @@ export default function Home() {
       <section className="hero-gradient pt-28 pb-16 sm:pt-36 sm:pb-24">
         <div className="max-w-6xl mx-auto px-4 sm:px-6">
           <div className="max-w-3xl mx-auto text-center">
-            {/* Savings callout — visually prominent */}
+            {/* Savings proof — large and prominent */}
             <p className="text-lg sm:text-xl font-bold text-accent-400 mb-4">
               Students save an average of <span className="text-2xl sm:text-3xl">$127</span> on licensing courses
             </p>
@@ -49,7 +49,7 @@ export default function Home() {
               Compare Verified Schools.<br className="hidden sm:block" />
               <span className="text-accent-400">Pay Less for Your License.</span>
             </h1>
-            <p className="text-lg sm:text-xl text-blue-200 leading-relaxed mb-8 max-w-2xl mx-auto">
+            <p className="text-lg sm:text-xl text-blue-200 leading-relaxed mb-10 max-w-2xl mx-auto">
               The trusted marketplace for career switchers. Compare state-approved licensing schools side&#8209;by&#8209;side, then save with exclusive discount codes you won&apos;t find anywhere else.
             </p>
 
@@ -80,15 +80,9 @@ export default function Home() {
                 </div>
               </div>
 
-              {/* Dual CTAs */}
-              <div className="flex flex-col sm:flex-row gap-3 items-center">
-                <button className="w-full sm:flex-1 bg-brand-600 hover:bg-brand-700 text-white font-bold text-base py-3.5 rounded-lg transition-colors shadow-lg shadow-brand-600/25">
-                  See Discounts →
-                </button>
-                <a href="#personalized-plan" className="text-sm font-medium text-brand-600 hover:text-brand-700 transition-colors whitespace-nowrap">
-                  Get Free License Plan
-                </a>
-              </div>
+              <button className="w-full bg-brand-600 hover:bg-brand-700 text-white font-bold text-base py-3.5 rounded-lg transition-colors shadow-lg shadow-brand-600/25">
+                See Discounts →
+              </button>
 
               <p className="text-xs text-neutral-400 text-center mt-4">Takes 30 seconds. No account required.</p>
 
@@ -159,84 +153,8 @@ export default function Home() {
         </div>
       </section>
 
-      {/* ============ MID-PAGE EMAIL CAPTURE — PERSONALIZED PLAN ============ */}
-      <section id="personalized-plan" className="py-16 sm:py-20 bg-neutral-50">
-        <div className="max-w-2xl mx-auto px-4 sm:px-6">
-          <div className="bg-white rounded-2xl border border-neutral-200 p-6 sm:p-10 shadow-sm">
-            <div className="text-center mb-8">
-              <p className="text-sm font-semibold text-brand-600 uppercase tracking-wide mb-2">Free &amp; Personalized</p>
-              <h2 className="font-display font-bold text-xl sm:text-2xl text-neutral-900 mb-3">
-                Get Your Personalized License Launch Plan + Best Discount Code
-              </h2>
-              <p className="text-neutral-500 text-sm leading-relaxed max-w-lg mx-auto">
-                Answer 3 quick questions and we&apos;ll send you a customized roadmap for your state — including the best school options and exclusive discounts.
-              </p>
-            </div>
-
-            {/* What you get */}
-            <div className="grid sm:grid-cols-2 gap-x-6 gap-y-2 mb-8">
-              {[
-                'Step-by-step licensing requirements for your state',
-                'Recommended top schools',
-                'Exclusive discount codes',
-                'Estimated total cost breakdown',
-                'Timeline to get licensed',
-              ].map((item) => (
-                <div key={item} className="flex items-start gap-2 py-1">
-                  <CheckIcon className="w-4 h-4 text-accent-500 flex-shrink-0 mt-0.5" />
-                  <span className="text-sm text-neutral-600">{item}</span>
-                </div>
-              ))}
-            </div>
-
-            {/* Form */}
-            <form className="space-y-3">
-              <div className="grid sm:grid-cols-2 gap-3">
-                <div>
-                  <label className="block text-xs font-medium text-neutral-500 mb-1.5">License Type</label>
-                  <select className="w-full border border-neutral-300 rounded-lg px-3 py-3 text-sm text-neutral-800 bg-white focus:outline-none focus:ring-2 focus:ring-brand-500 focus:border-transparent appearance-none">
-                    <option value="">Select license…</option>
-                    <option>Real Estate Agent</option>
-                    <option>Mortgage Loan Originator (MLO)</option>
-                    <option>Appraiser</option>
-                    <option>Insurance Producer</option>
-                    <option>Home Inspector</option>
-                    <option>Notary</option>
-                  </select>
-                </div>
-                <div>
-                  <label className="block text-xs font-medium text-neutral-500 mb-1.5">Your State</label>
-                  <select className="w-full border border-neutral-300 rounded-lg px-3 py-3 text-sm text-neutral-800 bg-white focus:outline-none focus:ring-2 focus:ring-brand-500 focus:border-transparent appearance-none">
-                    <option value="">Select state…</option>
-                    {US_STATES.map((s) => (
-                      <option key={s}>{s}</option>
-                    ))}
-                  </select>
-                </div>
-              </div>
-              <div>
-                <label className="block text-xs font-medium text-neutral-500 mb-1.5">Email</label>
-                <input
-                  type="email"
-                  placeholder="you@email.com"
-                  required
-                  className="w-full border border-neutral-300 rounded-lg px-3 py-3 text-sm text-neutral-800 bg-white focus:outline-none focus:ring-2 focus:ring-brand-500 focus:border-transparent placeholder-neutral-400"
-                />
-              </div>
-              <button
-                type="submit"
-                className="w-full bg-accent-500 hover:bg-accent-600 text-white font-bold text-sm py-3.5 rounded-lg transition-colors shadow-lg shadow-accent-500/20"
-              >
-                Get My Personalized Plan
-              </button>
-              <p className="text-xs text-neutral-400 text-center">We&apos;ll never spam you.</p>
-            </form>
-          </div>
-        </div>
-      </section>
-
       {/* ============ LICENSE CATEGORIES ============ */}
-      <section id="categories" className="py-16 sm:py-24">
+      <section id="categories" className="py-16 sm:py-24 bg-neutral-50">
         <div className="max-w-6xl mx-auto px-4 sm:px-6">
           <div className="text-center mb-12 sm:mb-16">
             <p className="text-sm font-semibold text-brand-600 uppercase tracking-wide mb-2">License Categories</p>
@@ -261,7 +179,7 @@ export default function Home() {
       </section>
 
       {/* ============ TRANSPARENCY ============ */}
-      <section className="py-16 sm:py-24 border-y border-neutral-200 bg-neutral-50">
+      <section className="py-16 sm:py-24 border-y border-neutral-200">
         <div className="max-w-3xl mx-auto px-4 sm:px-6 text-center">
           <p className="text-sm font-semibold text-brand-600 uppercase tracking-wide mb-2">Transparency</p>
           <h2 className="font-display font-bold text-2xl sm:text-3xl text-neutral-900 mb-4">How we make money</h2>
@@ -273,7 +191,7 @@ export default function Home() {
           </p>
           <div className="flex flex-wrap justify-center gap-4">
             {['No pay-to-rank', 'Prices never inflated', 'Real student reviews', 'Editorially independent'].map((badge) => (
-              <div key={badge} className="flex items-center gap-2 text-sm text-neutral-600 bg-white rounded-full px-4 py-2 border border-neutral-200">
+              <div key={badge} className="flex items-center gap-2 text-sm text-neutral-600 bg-neutral-50 rounded-full px-4 py-2 border border-neutral-200">
                 <CheckIcon />
                 {badge}
               </div>
