@@ -49,7 +49,7 @@
       "id": "dev",
       "name": "Dev Agent",
       "role": "Engineering Lead",
-      "model": "Claude Sonnet 4",
+      "model": "Claude Opus 4.6",
       "emoji": "💻",
       "color": "#3182ce",
       "responsibilities": ["Website builds", "New features", "Bug fixes", "Dashboard", "Data pipelines", "Analytics"]
