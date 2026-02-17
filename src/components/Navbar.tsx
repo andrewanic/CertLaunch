@@ -20,14 +20,14 @@ export default function Navbar() {
             <Logo />
           </a>
 
-          {/* Desktop: inline email capture */}
-          <form className="hidden sm:flex items-center gap-3">
+          {/* Desktop: centered email capture */}
+          <form className="hidden sm:flex items-center gap-3 flex-1 justify-center mx-6">
             <span className="text-xs font-medium text-neutral-500 whitespace-nowrap">Get a personalized career plan and exclusive discount code</span>
             <input
               type="email"
               placeholder="you@email.com"
               required
-              className="w-48 border border-neutral-300 rounded-lg px-3 py-2 text-sm text-neutral-800 bg-white focus:outline-none focus:ring-2 focus:ring-brand-500 focus:border-transparent placeholder-neutral-400"
+              className="w-64 border border-neutral-300 rounded-lg px-3 py-2 text-sm text-neutral-800 bg-white focus:outline-none focus:ring-2 focus:ring-brand-500 focus:border-transparent placeholder-neutral-400"
             />
             <button
               type="submit"
@@ -37,7 +37,7 @@ export default function Navbar() {
             </button>
           </form>
 
-          {/* Mobile: just show submit button that scrolls to bottom capture */}
+          {/* Mobile: button that scrolls to bottom capture */}
           <a href="#bottom-capture" className="sm:hidden bg-brand-600 hover:bg-brand-700 text-white text-xs font-semibold px-4 py-2 rounded-lg transition-colors">
             Get Plan
           </a>

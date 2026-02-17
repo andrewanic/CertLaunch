@@ -40,10 +40,12 @@ export default function Home() {
       <section className="hero-gradient pt-28 pb-16 sm:pt-36 sm:pb-24">
         <div className="max-w-6xl mx-auto px-4 sm:px-6">
           <div className="max-w-3xl mx-auto text-center">
-            {/* Savings proof — large, prominent, high contrast */}
-            <p className="text-xl sm:text-2xl font-extrabold text-white mb-5">
-              Students save an average of <span className="text-3xl sm:text-4xl text-accent-400">$104</span> on their licensing course
-            </p>
+            {/* Savings proof — large, prominent, high contrast with background */}
+            <div className="inline-block bg-white/15 backdrop-blur-sm rounded-xl px-6 py-3 mb-6">
+              <p className="text-xl sm:text-2xl font-extrabold text-white">
+                Students save an average of <span className="text-3xl sm:text-4xl text-accent-400">$104</span> on their licensing course
+              </p>
+            </div>
 
             <h1 className="font-display font-extrabold text-3xl sm:text-4xl md:text-5xl lg:text-[3.5rem] leading-tight text-white mb-4">
               Compare Verified Schools.<br className="hidden sm:block" />
