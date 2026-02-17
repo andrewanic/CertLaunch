@@ -40,9 +40,9 @@ export default function Home() {
       <section className="hero-gradient pt-28 pb-16 sm:pt-36 sm:pb-24">
         <div className="max-w-6xl mx-auto px-4 sm:px-6">
           <div className="max-w-3xl mx-auto text-center">
-            {/* Savings proof — large and prominent */}
-            <p className="text-lg sm:text-xl font-bold text-accent-400 mb-4">
-              Students save an average of <span className="text-2xl sm:text-3xl">$127</span> on licensing courses
+            {/* Savings proof — large, prominent, high contrast */}
+            <p className="text-xl sm:text-2xl font-extrabold text-white mb-5">
+              Students save an average of <span className="text-3xl sm:text-4xl text-accent-400">$104</span> on their licensing course
             </p>
 
             <h1 className="font-display font-extrabold text-3xl sm:text-4xl md:text-5xl lg:text-[3.5rem] leading-tight text-white mb-4">
@@ -201,16 +201,17 @@ export default function Home() {
       </section>
 
       {/* ============ BOTTOM EMAIL CAPTURE ============ */}
-      <section className="py-16 sm:py-24">
+      <section id="bottom-capture" className="py-16 sm:py-24">
         <div className="max-w-6xl mx-auto px-4 sm:px-6">
           <div className="bg-brand-900 rounded-2xl p-8 sm:p-12 text-center">
+            <p className="text-sm font-semibold text-accent-400 uppercase tracking-wide mb-3">Free — Personalized for Your State</p>
             <h2 className="font-display font-bold text-2xl sm:text-3xl text-white mb-3">
-              Don&apos;t Overpay for Your License
+              Get Your License Launch Plan + Best Discount Code
             </h2>
             <p className="text-blue-200 max-w-lg mx-auto mb-8">
-              Get notified when new discounts become available for your license and state.
+              A personalized step-by-step PDF covering your state&apos;s requirements, timelines, costs, top-rated schools, and an exclusive discount code. Built for your license type.
             </p>
-            <form className="flex flex-col sm:flex-row gap-3 max-w-md mx-auto">
+            <form className="flex flex-col sm:flex-row gap-3 max-w-lg mx-auto">
               <input
                 type="email"
                 placeholder="you@email.com"
@@ -221,10 +222,10 @@ export default function Home() {
                 type="submit"
                 className="bg-accent-500 hover:bg-accent-600 text-white font-bold text-sm px-8 py-3.5 rounded-lg transition-colors whitespace-nowrap shadow-lg shadow-accent-500/25"
               >
-                Send Me Discounts
+                Get My Free Plan →
               </button>
             </form>
-            <p className="text-xs text-blue-300 mt-4">No spam. Just real savings.</p>
+            <p className="text-xs text-blue-300 mt-4">No spam. Unsubscribe anytime. We respect your inbox.</p>
           </div>
         </div>
       </section>
