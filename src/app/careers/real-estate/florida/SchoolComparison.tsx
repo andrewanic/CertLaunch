@@ -159,8 +159,8 @@ const schools: School[] = [
     discountCode: null,
     discountPct: null,
     packages: [
-      { name: 'Basic', price: 139, discountPrice: null, includes: ['63-hour FREC-approved course', 'Real Estate Math bonus course', 'Certificate of completion'] },
-      { name: 'Premium', price: 199, discountPrice: null, includes: ['Everything in Basic', 'License exam prep course', 'Client-Focused Communications course', 'Money-back guarantee'] },
+      { name: 'Basic', price: 99, discountPrice: null, includes: ['63-hour FREC-approved course', 'Real Estate Math bonus course', 'Certificate of completion'] },
+      { name: 'Premium', price: 145, discountPrice: null, includes: ['Everything in Basic', 'License exam prep course', 'Client-Focused Communications course', 'Money-back guarantee'] },
     ],
   },
   {
@@ -646,24 +646,95 @@ function SchoolCard({ school, index }: { school: School; index: number }) {
   );
 }
 
+type SortOption = 'price-low' | 'price-high' | 'rating' | 'online' | 'in-person';
+
+function getLowestPrice(school: School): number {
+  if (school.discountCode && school.packages[0].discountPrice) {
+    return school.packages[0].discountPrice;
+  }
+  return school.packages[0].price;
+}
+
+function isOnline(school: School): boolean {
+  const f = school.format.toLowerCase();
+  return f.includes('online') || f.includes('self-paced');
+}
+
+function isInPerson(school: School): boolean {
+  const f = school.format.toLowerCase();
+  return f.includes('classroom') || f.includes('in-person') || f.includes('livestream');
+}
+
+function sortSchools(list: School[], sortBy: SortOption): School[] {
+  const sorted = [...list];
+  switch (sortBy) {
+    case 'price-low':
+      return sorted.sort((a, b) => getLowestPrice(a) - getLowestPrice(b));
+    case 'price-high':
+      return sorted.sort((a, b) => getLowestPrice(b) - getLowestPrice(a));
+    case 'rating':
+      return sorted.sort((a, b) => b.rating - a.rating);
+    case 'online':
+      return sorted.sort((a, b) => {
+        if (isOnline(a) && !isOnline(b)) return -1;
+        if (!isOnline(a) && isOnline(b)) return 1;
+        return getLowestPrice(a) - getLowestPrice(b);
+      });
+    case 'in-person':
+      return sorted.sort((a, b) => {
+        if (isInPerson(a) && !isInPerson(b)) return -1;
+        if (!isInPerson(a) && isInPerson(b)) return 1;
+        return getLowestPrice(a) - getLowestPrice(b);
+      });
+    default:
+      return sorted;
+  }
+}
+
+const sortLabels: Record<SortOption, string> = {
+  'price-low': 'Price: Low to High',
+  'price-high': 'Price: High to Low',
+  'rating': 'Highest Rated',
+  'online': 'Online First',
+  'in-person': 'In-Person / Live First',
+};
+
 export default function SchoolComparison() {
+  const [sortBy, setSortBy] = useState<SortOption>('price-low');
+  const sortedSchools = sortSchools(schools, sortBy);
+
   return (
     <section className="py-12 sm:py-16">
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
-        <div className="mb-8">
-          <h2 className="font-display font-bold text-2xl text-neutral-900 mb-2">
-            Best Real Estate Schools in Florida — Sorted by Price
-          </h2>
-          <p className="text-neutral-500 text-sm">
-            All {schools.length} schools are Florida DBPR-approved. Sorted by lowest course-only price.
-          </p>
+        <div className="flex flex-col sm:flex-row sm:items-end sm:justify-between gap-4 mb-8">
+          <div>
+            <h2 className="font-display font-bold text-2xl text-neutral-900 mb-2">
+              Best Real Estate Schools in Florida
+            </h2>
+            <p className="text-neutral-500 text-sm">
+              All {schools.length} schools are Florida DBPR-approved. {sortLabels[sortBy]}.
+            </p>
+          </div>
+          <div className="flex items-center gap-2">
+            <label htmlFor="sort-select" className="text-sm font-medium text-neutral-600 whitespace-nowrap">Sort by:</label>
+            <select
+              id="sort-select"
+              value={sortBy}
+              onChange={(e) => setSortBy(e.target.value as SortOption)}
+              className="border border-neutral-300 rounded-lg px-3 py-2 text-sm text-neutral-800 bg-white focus:outline-none focus:ring-2 focus:ring-brand-500 focus:border-transparent"
+            >
+              {Object.entries(sortLabels).map(([value, label]) => (
+                <option key={value} value={value}>{label}</option>
+              ))}
+            </select>
+          </div>
         </div>
 
         {/* Quick Price Summary */}
         <div className="mb-8 p-4 bg-brand-50 rounded-xl border border-brand-100">
           <h3 className="font-semibold text-brand-800 text-sm mb-3">Quick Price Comparison (Course Only)</h3>
           <div className="flex flex-wrap gap-3">
-            {schools.map((school) => {
+            {sortedSchools.map((school) => {
               const price = school.packages[0].price;
               const discountedPrice = school.discountCode && school.packages[0].discountPrice
                 ? school.packages[0].discountPrice
@@ -696,7 +767,7 @@ export default function SchoolComparison() {
 
         {/* School Cards */}
         <div className="space-y-6">
-          {schools.map((school, index) => (
+          {sortedSchools.map((school, index) => (
             <SchoolCard key={school.name} school={school} index={index} />
           ))}
         </div>
