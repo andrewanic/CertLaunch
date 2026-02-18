@@ -1,33 +1,28 @@
-import Image from 'next/image';
-
 export default function Logo({ className = '' }: { className?: string }) {
   return (
-    <div className={`flex items-center gap-2.5 ${className}`}>
-      {/* Shield with checkmark - matching Andrew's brand logo */}
-      <svg className="h-9 w-9 flex-shrink-0" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <defs>
-          <linearGradient id="shield-main" x1="8" y1="4" x2="36" y2="40" gradientUnits="userSpaceOnUse">
-            <stop offset="0%" stopColor="#5EEAD4" />
-            <stop offset="40%" stopColor="#2DD4BF" />
-            <stop offset="100%" stopColor="#0D9488" />
-          </linearGradient>
-          <linearGradient id="shield-highlight" x1="10" y1="6" x2="22" y2="28" gradientUnits="userSpaceOnUse">
-            <stop offset="0%" stopColor="white" stopOpacity="0.25" />
-            <stop offset="100%" stopColor="white" stopOpacity="0" />
-          </linearGradient>
-        </defs>
-        {/* Main shield */}
-        <path d="M22 3L7 10V19C7 29.5 13.5 38.5 22 40.5C30.5 38.5 37 29.5 37 19V10L22 3Z" fill="url(#shield-main)" />
-        {/* Light highlight on left face */}
-        <path d="M22 3L7 10V19C7 29.5 13.5 38.5 22 40.5V3Z" fill="url(#shield-highlight)" />
-        {/* Checkmark */}
-        <path d="M15 22L20 27L30 17" stroke="white" strokeWidth="3.5" strokeLinecap="round" strokeLinejoin="round" />
-      </svg>
-      {/* Wordmark: Cert in dark navy, Launch in teal */}
-      <span className="font-display font-bold text-[1.35rem] tracking-tight leading-none">
-        <span className="text-[#1e293b]">Cert</span>
-        <span className="text-[#0d9488]">Launch</span>
-      </span>
-    </div>
+    <svg className={`h-9 w-auto ${className}`} viewBox="0 0 220 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+      {/* Shield */}
+      <defs>
+        <linearGradient id="shield-g1" x1="6" y1="2" x2="38" y2="42" gradientUnits="userSpaceOnUse">
+          <stop offset="0%" stopColor="#6DD8BE" />
+          <stop offset="50%" stopColor="#3BBFA0" />
+          <stop offset="100%" stopColor="#1A8A7A" />
+        </linearGradient>
+        <linearGradient id="shield-g2" x1="6" y1="4" x2="22" y2="34" gradientUnits="userSpaceOnUse">
+          <stop offset="0%" stopColor="#FFFFFF" stopOpacity="0.25" />
+          <stop offset="100%" stopColor="#FFFFFF" stopOpacity="0" />
+        </linearGradient>
+      </defs>
+      {/* Shield body */}
+      <path d="M22 2L6 10V20C6 30.5 13 38.5 22 41C31 38.5 38 30.5 38 20V10L22 2Z" fill="url(#shield-g1)" />
+      {/* Left highlight */}
+      <path d="M22 2L6 10V20C6 30.5 13 38.5 22 41V2Z" fill="url(#shield-g2)" />
+      {/* Checkmark */}
+      <path d="M14 22L20 28L31 16" stroke="white" strokeWidth="3.5" strokeLinecap="round" strokeLinejoin="round" />
+      {/* "Cert" in dark navy */}
+      <text x="46" y="30" fontFamily="system-ui, -apple-system, 'Segoe UI', sans-serif" fontWeight="700" fontSize="26" fill="#172554">Cert</text>
+      {/* "Launch" in teal */}
+      <text x="102" y="30" fontFamily="system-ui, -apple-system, 'Segoe UI', sans-serif" fontWeight="700" fontSize="26" fill="#0D9488">Launch</text>
+    </svg>
   );
 }
