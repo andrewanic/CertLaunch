@@ -87,7 +87,8 @@ const schools: School[] = [
     discountCode: null,
     discountPct: null,
     packages: [
-      { name: '77-Hour Pre-Licensing Course', price: 179, discountPrice: null, includes: ['77-hour DOS-approved course', 'State exam prep materials', 'Lifetime job placement assistance'] },
+      { name: '77-Hour Pre-Licensing Course', price: 99, discountPrice: null, includes: ['77-hour DOS-approved course', 'Certificate of completion', '24/7 customer support', 'Lifetime job placement assistance'] },
+      { name: '77-Hour Course + Exam Prep', price: 148, discountPrice: null, includes: ['77-hour DOS-approved course', 'Exam prep resources', 'Key terms and definitions', '24/7 customer support', 'Lifetime job placement assistance'] },
     ],
   },
   {
@@ -120,8 +121,8 @@ const schools: School[] = [
     discountCode: null,
     discountPct: null,
     packages: [
-      { name: 'Basic', price: 199, discountPrice: null, includes: ['77-hour pre-license course', 'Practice exams', 'Instructor support'] },
-      { name: 'Enhanced', price: 249, discountPrice: null, includes: ['Everything in Basic', 'Audio learning', 'AI virtual instructor', 'Exam prep eBook'] },
+      { name: 'Basic', price: 99, discountPrice: null, includes: ['77-hour pre-license course', 'Practice exams', 'Instructor support'] },
+      { name: 'Enhanced', price: 149, discountPrice: null, includes: ['Everything in Basic', 'Audio learning', 'AI virtual instructor', 'Exam prep eBook'] },
     ],
   },
   {
@@ -145,15 +146,15 @@ const schools: School[] = [
       },
       {
         name: 'Deluxe',
-        price: 369,
+        price: 311,
         discountPrice: null,
-        includes: ['Everything in Basic', 'AI-accelerated learning', '3 months exam prep tools', 'E-book'],
+        includes: ['Everything in Basic', 'AI-powered virtual instructor', '3 months PrepAgent exam prep', 'Practice exam builder', 'Exam prep e-book'],
       },
       {
         name: 'Premium',
-        price: 469,
+        price: 375,
         discountPrice: null,
-        includes: ['Everything in Deluxe', '1 hour private tutoring', 'Live tutoring webinars with Q&A'],
+        includes: ['Everything in Deluxe', '1 hour private tutoring', 'Live webinars 5x/week', 'Live Q&A sessions'],
       },
     ],
   },
