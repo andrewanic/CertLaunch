@@ -71,7 +71,8 @@ const schools: School[] = [
     discountCode: null,
     discountPct: null,
     packages: [
-      { name: 'Standard 77-Hr Course', price: 129, discountPrice: null, includes: ['77-hour pre-license course', 'Review questions', 'Unlimited practice exam attempts', 'Certificate of completion'] },
+      { name: 'Standard 77-Hr Course', price: 89, discountPrice: null, includes: ['77-hour pre-license course', 'Review questions', 'Unlimited practice exam attempts', 'Certificate of completion'] },
+      { name: 'Deluxe Package', price: 149, discountPrice: null, includes: ['Everything in Standard', 'Exam prep tool (national & state)', 'Downloadable PDF content', 'Glossary PDF'] },
     ],
   },
   {
@@ -104,8 +105,9 @@ const schools: School[] = [
     discountCode: null,
     discountPct: null,
     packages: [
-      { name: 'Basic', price: 199, discountPrice: null, includes: ['77-hour NY pre-license course', 'Certificate of completion'] },
-      { name: 'Premium', price: 299, discountPrice: null, includes: ['Everything in Basic', 'Exam prep course', 'Practice tests'] },
+      { name: 'Standard Package', price: 269, discountPrice: null, includes: ['77-hour NY pre-license course', 'Real estate math course', 'Live customer service support'] },
+      { name: 'Plus Package', price: 315, discountPrice: null, includes: ['Everything in Standard', 'New York exam prep materials'] },
+      { name: 'Premium Package', price: 319, discountPrice: null, includes: ['Everything in Plus', 'Modern RE Practice e-book', 'Extended access'] },
     ],
   },
   {
