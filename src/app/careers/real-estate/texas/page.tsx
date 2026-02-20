@@ -76,7 +76,7 @@ export default function TexasRealEstatePage() {
             Best Online Real Estate Schools in Texas (2026)
           </h1>
           <p className="text-lg text-blue-200 mb-8 max-w-2xl">
-            Compare 8 TREC-approved schools. Find the best price with exclusive CertLaunch discounts and satisfy the 180-hour requirement faster.
+            Compare 10 TREC-approved schools. Find the best price with exclusive CertLaunch discounts and satisfy the 180-hour requirement faster.
           </p>
           {/* Stats bar */}
           <div className="flex flex-wrap gap-6 text-sm">

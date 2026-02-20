@@ -283,6 +283,66 @@ const schools: School[] = [
       },
     ],
   },
+  {
+    name: '360training (Agent Campus)',
+    url: 'https://www.360training.com/agent-campus/real-estate-license/texas',
+    rating: 4.3,
+    ratingSource: 'Student Reviews',
+    format: 'Self-paced online',
+    access: '6-month access',
+    features: ['TREC Provider #4591', 'Free exam study guide', 'Complete in 5 weeks'],
+    badge: null,
+    badgeColor: '',
+    discountCode: null,
+    discountPct: null,
+    packages: [
+      {
+        name: '180-Hour Standard Package',
+        price: 299,
+        discountPrice: null,
+        includes: ['6 required courses', 'Certificate of completion', 'Email support'],
+      },
+      {
+        name: '180-Hour Plus Package',
+        price: 339,
+        discountPrice: null,
+        includes: ['Standard package features', 'License exam prep course', 'Practice exams'],
+      },
+      {
+        name: '180-Hour + SAE Premium Package',
+        price: 635,
+        discountPrice: null,
+        includes: ['Plus package features', '98-hr SAE post-license courses', 'Online proctoring'],
+      },
+    ],
+  },
+  {
+    name: 'The Real Estate Business School',
+    url: 'https://www.buildmyrebusiness.com/getmylicense/',
+    rating: 4.7,
+    ratingSource: 'Student Reviews',
+    format: 'Online + Virtual Classroom',
+    access: 'Varies by package',
+    features: ['Mentoring program included', 'On-demand classroom recordings', 'Guaranteed to sell in 6 months'],
+    badge: null,
+    badgeColor: '',
+    discountCode: null,
+    discountPct: null,
+    packages: [
+      {
+        name: 'Standard Package',
+        price: 349,
+        discountPrice: null,
+        includes: ['180-hour pre-license courses', 'Exam prep course', 'Unlimited practice exams', '800+ videos'],
+      },
+      {
+        name: 'Guaranteed to Succeed Package',
+        price: 499,
+        discountPrice: null,
+        includes: ['Everything in Standard', '33-hr mentoring program', '98-hr SAE renewal courses', '10 years of CE courses', 'Guaranteed to sell in 6 months'],
+      },
+    ],
+  },
 ];
 
 function Stars({ rating, source }: { rating: number; source: string }) {
