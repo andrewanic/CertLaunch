@@ -1,0 +1,151 @@
+{
+  "state": "New York",
+  "stateSlug": "new-york",
+  "vertical": "real-estate",
+  "lastUpdated": "2026-02-18",
+  "requiredHours": 77,
+  "statsBar": {
+    "courseCost": "$99 – $689",
+    "timeToLicense": "2 – 12 weeks",
+    "avgSalary": "$95,000/yr",
+    "requiredHours": "77 hours"
+  },
+  "earningPotential": {
+    "averageIncome": "$85,000 – $107,000",
+    "topEarners": "$150,000 – $300,000+",
+    "commission": {
+      "typicalPct": "2.5%–3%",
+      "medianHomePrice": "$450,000",
+      "examplePerSale": "$11,250–$13,500",
+      "newAgentSplit": "50/50 to 70/30",
+      "newAgentPerSale": "$5,625–$9,450",
+      "firstYearDeals": "4–8",
+      "firstYearEarnings": "$22,500–$75,600"
+    },
+    "topMarkets": ["Manhattan", "Brooklyn", "Queens", "Long Island", "Westchester", "The Hamptons", "Hudson Valley", "Buffalo"]
+  },
+  "licensingSteps": [
+    {
+      "step": "1",
+      "title": "Complete 77 Hours of Pre-License Education",
+      "desc": "Enroll in a New York DOS-approved 77-hour salesperson qualifying course. All schools listed above are approved. Courses can be completed online at your own pace or in a classroom."
+    },
+    {
+      "step": "2",
+      "title": "Pass the Course Final Exam",
+      "desc": "Each school requires you to pass a proctored final exam at the end of the course. This is separate from the state exam."
+    },
+    {
+      "step": "3",
+      "title": "Schedule and Pass the State Exam",
+      "desc": "Register through eAccessNY to take the NY real estate salesperson exam. The exam has 75 multiple-choice questions and requires a 70% score to pass. Exam fee: $15."
+    },
+    {
+      "step": "4",
+      "title": "Find a Sponsoring Broker",
+      "desc": "New York requires you to work under a licensed broker. Research brokerages in your area — many schools like NYREI offer job placement assistance."
+    },
+    {
+      "step": "5",
+      "title": "Apply for Your License",
+      "desc": "Submit your license application through eAccessNY. Application fee: $65. Your sponsoring broker must sign off on your application before it can be processed."
+    },
+    {
+      "step": "6",
+      "title": "Start Your Career",
+      "desc": "Once your license is approved and activated under your broker, you can legally practice real estate in New York."
+    }
+  ],
+  "requirements": {
+    "eligibility": [
+      "Must be at least 18 years old",
+      "Must be a US citizen or lawful permanent resident",
+      "No college degree required",
+      "Must pass background check (via eAccessNY)"
+    ],
+    "educationExam": [
+      "77 hours of approved pre-license education",
+      "Pass school proctored final exam",
+      "Pass NY state exam (75 questions, 70% to pass)",
+      "Exam administered by NY Department of State"
+    ]
+  },
+  "costBreakdown": [
+    { "item": "Pre-License Course (77 hours)", "low": "$99", "high": "$689", "note": "Use CertLaunch discount" },
+    { "item": "State Exam Fee", "low": "$15", "high": "$15", "note": "eAccessNY" },
+    { "item": "License Application", "low": "$65", "high": "$65", "note": "NY DOS" },
+    { "item": "Fingerprinting", "low": "$75", "high": "$100", "note": "IdentoGO" },
+    { "item": "Background Check", "low": "Included", "high": "Included", "note": "Part of application" }
+  ],
+  "totalCostEstimate": { "low": "$254", "high": "$870+" },
+  "exam": {
+    "questions": 75,
+    "passingScore": "70%",
+    "passingCorrect": 53,
+    "timeLimit": "1.5 hours",
+    "provider": "NY Department of State (eAccessNY)",
+    "cost": "$15",
+    "topics": [
+      "License law and regulations",
+      "Agency and fiduciary responsibilities",
+      "Contracts and legal aspects",
+      "Property ownership and land use",
+      "Real estate math and calculations"
+    ],
+    "passRate": "50–60%",
+    "prepTip": "The NY real estate exam has a ~50-60% first-time pass rate. The exam is administered by the NY DOS (not Pearson VUE like most states). Schools with exam prep packages significantly improve your odds."
+  },
+  "timeline": {
+    "fullTime": { "label": "Full-time", "duration": "2–3 weeks", "detail": "Studying 4–6 hours/day" },
+    "partTime": { "label": "Part-time", "duration": "4–8 weeks", "detail": "Studying 1–2 hours/day" },
+    "casual": { "label": "Casual pace", "duration": "3–6 months", "detail": "A few hours per week" }
+  },
+  "faqs": [
+    {
+      "q": "How much does it cost to get a real estate license in New York?",
+      "a": "Total costs range from $254 to $870+. This includes the 77-hour pre-license course ($99–$689), state exam fee ($15), license application ($65), and fingerprinting ($75–$100). Using a CertLaunch discount code can save you up to 20% on your course."
+    },
+    {
+      "q": "How long does it take to get a real estate license in New York?",
+      "a": "Most students complete the process in 2–12 weeks. The 77-hour pre-license course can be finished in as little as 2 weeks studying full-time. After passing the course, you can schedule your state exam within days through eAccessNY."
+    },
+    {
+      "q": "What are the requirements to get a real estate license in New York?",
+      "a": "You must be at least 18 years old, complete 77 hours of approved pre-license education, pass the school final exam, pass the NY state exam with a score of 70% or higher, find a sponsoring broker, and apply through eAccessNY."
+    },
+    {
+      "q": "Is the New York real estate exam hard?",
+      "a": "The NY real estate exam has a first-time pass rate of approximately 50–60%. It consists of 75 multiple-choice questions, and you need 70% (53 correct) to pass. Proper preparation with exam prep tools significantly improves your chances."
+    },
+    {
+      "q": "Can I take the New York real estate course online?",
+      "a": "Yes. Most schools listed on CertLaunch offer online, state-approved 77-hour pre-license courses. Online courses are self-paced, meaning you can study on your own schedule from anywhere."
+    },
+    {
+      "q": "How much do real estate agents make in New York?",
+      "a": "New York real estate agents earn an average of $85,000–$107,000 per year statewide. In New York City, top agents earn $150,000–$300,000+. First-year agents typically earn $22,000–$75,000 depending on market and effort."
+    },
+    {
+      "q": "Do I need a college degree to become a real estate agent in New York?",
+      "a": "No. New York does not require a college degree to obtain a real estate license. You only need to complete the 77-hour pre-license course, pass the state exam, and meet the basic application requirements."
+    },
+    {
+      "q": "What is the best real estate school in New York?",
+      "a": "The best school depends on your budget and learning style. RealEstateU offers the best value starting at $99 with CertLaunch discount. Aceable Agent is top-rated for mobile learning. NYREI offers in-person classes with lifetime job placement. Compare all options above to find your best fit."
+    },
+    {
+      "q": "How do I choose between online and in-person real estate classes in New York?",
+      "a": "Online courses offer flexibility and are typically cheaper ($99–$339). In-person classes provide structured schedules and networking opportunities. If you prefer classroom learning with job placement support, consider NYREI. If you want self-paced study, RealEstateU or Aceable are great options."
+    },
+    {
+      "q": "Can I get my New York real estate license if I have a criminal record?",
+      "a": "It depends on the offense. The NY DOS reviews each application individually. Under Article 23-A, a conviction does not automatically disqualify you. The state considers factors like rehabilitation and time elapsed. You may want to consult with the DOS before enrolling."
+    }
+  ],
+  "meta": {
+    "title": "Best Online Real Estate Schools in New York (2026) | Compare & Save | CertLaunch",
+    "description": "Compare the best real estate schools in New York for 2026. Get your NY real estate license with exclusive discounts. See requirements, costs, exam info, and how much agents earn.",
+    "h1": "Best Online Real Estate Schools in New York (2026)",
+    "subheadline": "Compare {N} New York DOS-approved schools. Find the best price with exclusive CertLaunch discounts and get your real estate license faster."
+  }
+}

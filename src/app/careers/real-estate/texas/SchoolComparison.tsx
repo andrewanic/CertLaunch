@@ -27,7 +27,7 @@ interface School {
 const schools: School[] = [
   {
     name: 'RealEstateU',
-    url: 'https://www.realestateu.com/texas-real-estate-license/',
+    url: 'https://realestateu.com/texas-real-estate-license-online/',
     rating: 4.6,
     ratingSource: 'BBB',
     format: 'Self-paced online',
@@ -94,21 +94,21 @@ const schools: School[] = [
     packages: [
       {
         name: 'The Basics',
-        price: 317,
+        price: 509,
         discountPrice: null,
-        includes: ['180-hour course package', 'State-approved curriculum', 'Instructor support'],
+        includes: ['180-hour course package', 'Instructor support', 'Real estate study guides'],
       },
       {
         name: 'Exam Preparation',
-        price: 509,
+        price: 627,
         discountPrice: null,
-        includes: ['Everything in The Basics', 'Exam prep', 'Pass guarantee'],
+        includes: ['Everything in The Basics', 'Simulated exams', 'Flashcards', 'Pass or Don\'t Pay guarantee'],
       },
       {
         name: 'Ultimate Learning',
-        price: 627,
+        price: 789,
         discountPrice: null,
-        includes: ['Everything in Exam Preparation', 'Career resources', '1-year access'],
+        includes: ['Everything in Exam Preparation', 'Career Booster Pack', 'Buffini coaching videos'],
       },
     ],
   },
@@ -127,21 +127,21 @@ const schools: School[] = [
     packages: [
       { 
         name: '180-Hour Standard Package', 
-        price: 350, 
+        price: 310, 
         discountPrice: null, 
-        includes: ['6 required courses', 'Practice exams', 'Instructor support'] 
+        includes: ['6 required courses', '12-month access', 'Live customer service'] 
       },
       { 
-        name: '180-Hour Convenience Package', 
-        price: 495, 
+        name: '180-Hour Plus Package', 
+        price: 349, 
         discountPrice: null, 
-        includes: ['Standard package features', 'Online proctored exams', 'Instructor Q&A'] 
+        includes: ['Standard package features', 'Texas Exam Prep', 'Pre-License Study Guide'] 
       },
       { 
-        name: '270-Hour Premium Package', 
-        price: 1000, 
+        name: '180-Hour + SAE Premium Package', 
+        price: 645, 
         discountPrice: null, 
-        includes: ['180-hr pre-license', '90-hr SAE education', '12-month access'] 
+        includes: ['Plus package features', '98-hr SAE courses', 'Modern Real Estate Practice ebook'] 
       },
     ],
   },
@@ -174,7 +174,7 @@ const schools: School[] = [
   },
   {
     name: 'Pioneer School of Real Estate',
-    url: 'https://www.pioneerschooloftexas.com/',
+    url: 'https://pioneerschoolofrealestate.com/?course=pre-licensing-courses',
     rating: 4.3,
     ratingSource: 'HousingWire',
     format: 'Self-paced online',
@@ -209,32 +209,32 @@ const schools: School[] = [
       {
         name: 'Career Starter',
         price: 515,
-        discountPrice: 309,
+        discountPrice: null,
         includes: ['180-hour course', 'Pass guarantee', 'Instructor-led webinars'],
       },
       {
         name: 'Career Essentials',
         price: 579,
-        discountPrice: 347.40,
+        discountPrice: null,
         includes: ['Everything in Career Starter', 'Exam prep edge', 'Digital flashcards'],
       },
       {
         name: 'Career Builder',
         price: 645,
-        discountPrice: 387,
+        discountPrice: null,
         includes: ['Everything in Career Essentials', 'Kickstarter professional development', 'eTextbook'],
       },
       {
         name: 'Career Accelerator',
         price: 1169,
-        discountPrice: 701.40,
+        discountPrice: null,
         includes: ['Everything in Career Builder', '98-hr SAE education', 'Printed textbook'],
       },
     ],
   },
   {
     name: 'Champions School of Real Estate',
-    url: 'https://www.championsschool.com/real-estate/',
+    url: 'https://www.championsschool.com/real-estate/tx/',
     rating: 4.9,
     ratingSource: 'HousingWire',
     format: 'In-person + Live Online',
@@ -249,13 +249,25 @@ const schools: School[] = [
         name: '6 Course Licensing Program',
         price: 980,
         discountPrice: null,
-        includes: ['180-hour course', 'Textbooks', 'Exam prep', '6-month exam prep retakes'],
+        includes: ['180-hour course', 'Textbooks', 'Exam prep course', '6-month exam prep retakes'],
+      },
+      {
+        name: '6 Course + Business Etiquette',
+        price: 1134,
+        discountPrice: null,
+        includes: ['Everything in Licensing Program', 'Business etiquette course'],
       },
       {
         name: 'Champions Advantage',
         price: 1240,
         discountPrice: null,
-        includes: ['Everything in Licensing Program', 'Business etiquette course', 'Unlimited retakes'],
+        includes: ['Mix-and-match delivery methods', 'All course materials', 'Exam prep retakes'],
+      },
+      {
+        name: 'Champions Advantage + Business Etiquette',
+        price: 1394,
+        discountPrice: null,
+        includes: ['Champions Advantage features', 'Business etiquette course', 'Full customization'],
       },
     ],
   },
