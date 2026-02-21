@@ -1,0 +1,146 @@
+{
+  "state": "California",
+  "stateSlug": "california",
+  "vertical": "real-estate",
+  "lastUpdated": "2026-02-20",
+  "requiredHours": 135,
+  "statsBar": {
+    "courseCost": "$99 – $599",
+    "timeToLicense": "3 – 6 months",
+    "avgSalary": "$85,000/yr",
+    "requiredHours": "135 hours"
+  },
+  "earningPotential": {
+    "averageIncome": "$65,000 – $120,000",
+    "topEarners": "$150,000 – $250,000+",
+    "commission": {
+      "typicalPct": "2.5%–3%",
+      "medianHomePrice": "$850,000",
+      "examplePerSale": "$21,250–$25,500",
+      "newAgentSplit": "70/30",
+      "newAgentPerSale": "$14,875–$17,850",
+      "firstYearDeals": "3–5",
+      "firstYearEarnings": "$45,000–$89,000"
+    },
+    "topMarkets": ["Los Angeles", "San Diego", "San Francisco", "Sacramento", "San Jose", "Irvine", "Riverside", "Fresno"]
+  },
+  "licensingSteps": [
+    {
+      "step": "1",
+      "title": "Complete 135 Hours of Pre-License Education",
+      "desc": "Complete three college-level courses: Real Estate Principles, Real Estate Practice, and one elective from the DRE-approved list."
+    },
+    {
+      "step": "2",
+      "title": "Apply for the Exam and License",
+      "desc": "Submit your application to the California Department of Real Estate (DRE) along with proof of completed education."
+    },
+    {
+      "step": "3",
+      "title": "Submit Fingerprints",
+      "desc": "Get fingerprinted by a Live Scan service provider using the DRE form to initiate your background check."
+    },
+    {
+      "step": "4",
+      "title": "Pass the State Exam",
+      "desc": "Schedule and pass the California real estate salesperson exam. You must score at least 70%."
+    },
+    {
+      "step": "5",
+      "title": "Find a Sponsoring Broker",
+      "desc": "To activate your license and start working, you must be hired by a licensed California real estate broker."
+    }
+  ],
+  "requirements": {
+    "eligibility": [
+      "Must be at least 18 years old",
+      "Must be honest and truthful (background check)",
+      "Proof of legal presence in the US",
+      "No college degree required (though pre-license courses are college-level)"
+    ],
+    "educationExam": [
+      "135 hours of approved pre-license education",
+      "Pass course final exams",
+      "Pass California state exam (150 questions, 70% to pass)",
+      "Exam administered by the DRE"
+    ]
+  },
+  "costBreakdown": [
+    { "item": "Pre-License Course", "low": "$99", "high": "$599", "note": "Varies by school" },
+    { "item": "Exam Fee", "low": "$100", "high": "$100", "note": "Paid to DRE" },
+    { "item": "License Fee", "low": "$350", "high": "$350", "note": "Paid to DRE" },
+    { "item": "Fingerprinting", "low": "$49", "high": "$75", "note": "Processing + rolling fee" }
+  ],
+  "totalCostEstimate": { "low": "$600", "high": "$1,150+" },
+  "exam": {
+    "questions": 150,
+    "passingScore": "70%",
+    "passingCorrect": 105,
+    "timeLimit": "3 hours",
+    "provider": "California DRE",
+    "cost": "$100",
+    "topics": [
+      "Property Ownership and Land Use Controls",
+      "Laws of Agency and Fiduciary Duties",
+      "Property Valuation and Market Analysis",
+      "Financing",
+      "Transfer of Property",
+      "Practice of Real Estate and Mandated Disclosures"
+    ],
+    "passRate": "50–55%",
+    "prepTip": "The California exam is known for tricky wording. Focus on vocabulary and take as many practice exams as possible."
+  },
+  "timeline": {
+    "fullTime": { "label": "Full-time", "duration": "2.5 – 3 months", "detail": "Courses require min. 18 days each (54 days total)" },
+    "partTime": { "label": "Part-time", "duration": "4 – 6 months", "detail": "Studying evenings and weekends" },
+    "casual": { "label": "Casual pace", "duration": "6 – 12 months", "detail": "One course at a time" }
+  },
+  "faqs": [
+    {
+      "q": "How much does it cost to get a real estate license in California?",
+      "a": "Total costs typically range from $600 to $1,150+. This includes the pre-license course ($99–$600), the state exam fee ($100), the license fee ($350), and fingerprinting costs (~$49–$75)."
+    },
+    {
+      "q": "How long does it take to get a California real estate license?",
+      "a": "It usually takes 3 to 6 months. California requires a minimum of 18 days per course (3 courses total), so the fastest possible time is 54 days for education, plus application processing and exam scheduling time."
+    },
+    {
+      "q": "What are the requirements for a California real estate license?",
+      "a": "You must be at least 18 years old, complete 135 hours of approved education (3 college-level courses), pass the state exam with a score of 70% or higher, and pass a background check."
+    },
+    {
+      "q": "Is the California real estate exam hard?",
+      "a": "Yes, it is challenging. The pass rate for first-time takers hover around 50–55%. The exam consists of 150 multiple-choice questions, and you must answer at least 105 correctly (70%) to pass."
+    },
+    {
+      "q": "Can I take the California real estate course online?",
+      "a": "Yes, most students complete the 135 hours of required education online. Ensure the provider is approved by the California Department of Real Estate (DRE)."
+    },
+    {
+      "q": "How much do real estate agents make in California?",
+      "a": "Incomes vary widely, but the average active agent earns around $85,000 per year. Top producers in major markets like Los Angeles or San Francisco can earn well over $200,000 annually."
+    },
+    {
+      "q": "Do I need a college degree to be a real estate agent in California?",
+      "a": "No, a college degree is not required. However, the three required pre-license courses (Real Estate Principles, Real Estate Practice, and an elective) are considered college-level instruction."
+    },
+    {
+      "q": "What is the best real estate school in California?",
+      "a": "The best school depends on your learning style. RealEstateU offers an affordable, self-paced option, while schools like Aceable and Allied offer interactive online formats. Look for DRE-approved providers with high student ratings."
+    },
+    {
+      "q": "How do I choose between online and in-person classes?",
+      "a": "Online classes offer flexibility and are usually cheaper, making them ideal for those with jobs. In-person classes provide structure and networking but are more expensive and require a set schedule."
+    },
+    {
+      "q": "Can I get a California real estate license with a criminal record?",
+      "a": "It is possible, but you must be honest on your application. The DRE reviews applicants with criminal convictions on a case-by-case basis. Failure to disclose a conviction is grounds for denial."
+    }
+  ],
+  "meta": {
+    "title": "Best Online Real Estate Schools in California (2026) | Compare & Save | CertLaunch",
+    "description": "Compare the best real estate schools in California for 2026. Get your California real estate license with exclusive discounts.",
+    "h1": "Best Online Real Estate Schools in California (2026)",
+    "subheadline": "Compare the top DRE-approved schools. Find the best price with exclusive CertLaunch discounts and get your California real estate license faster."
+  }
+}
