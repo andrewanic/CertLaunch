@@ -1,0 +1,196 @@
+{
+  "state": "Georgia",
+  "stateSlug": "georgia",
+  "vertical": "real-estate",
+  "lastUpdated": "2026-02-20",
+  "requiredHours": 75,
+  "statsBar": {
+    "courseCost": "$180 – $450",
+    "timeToLicense": "3 – 8 weeks",
+    "avgSalary": "$60,000/yr",
+    "requiredHours": "75 hours"
+  },
+  "earningPotential": {
+    "averageIncome": "$60,000 – $85,000",
+    "topEarners": "$110,000+",
+    "commission": {
+      "typicalPct": "2.5%–3%",
+      "medianHomePrice": "$340,000",
+      "examplePerSale": "$8,500–$10,200",
+      "newAgentSplit": "70/30",
+      "newAgentPerSale": "$5,950–$7,140",
+      "firstYearDeals": "6–8",
+      "firstYearEarnings": "$35,700–$57,100"
+    },
+    "topMarkets": [
+      "Atlanta",
+      "Augusta",
+      "Savannah",
+      "Columbus",
+      "Macon",
+      "Sandy Springs",
+      "Roswell",
+      "Athens"
+    ]
+  },
+  "licensingSteps": [
+    {
+      "step": "1",
+      "title": "Complete 75 Hours of Pre-License Education",
+      "desc": "Enroll in a GREC-approved 75-hour Salesperson Pre-license course. You must pass the course final exam with a score of 72% or higher."
+    },
+    {
+      "step": "2",
+      "title": "Obtain a GCIC Criminal History Report",
+      "desc": "Visit a local sheriff's office or police station to obtain a Georgia Crime Information Center (GCIC) report. This report is valid for 60 days and must be brought to the exam center."
+    },
+    {
+      "step": "3",
+      "title": "Pass the Georgia Real Estate Salesperson Exam",
+      "desc": "Register with PSI to take the state exam. The exam consists of 152 questions, and you must score 75% or higher on both the National and State portions."
+    },
+    {
+      "step": "4",
+      "title": "Apply for Your License",
+      "desc": "You can apply for your license immediately at the PSI test center after passing. Bring your Lawful Presence Verification and the $170 license fee."
+    },
+    {
+      "step": "5",
+      "title": "Find a Sponsoring Broker",
+      "desc": "To activate your license, you must be sponsored by a Georgia broker. If you don't have a broker yet, you can apply for an inactive license."
+    }
+  ],
+  "requirements": {
+    "eligibility": [
+      "Must be at least 18 years old",
+      "Must have a high school diploma or GED",
+      "Must have a US Social Security number",
+      "Must provide a GCIC criminal history report (no more than 60 days old)"
+    ],
+    "educationExam": [
+      "75 hours of approved pre-license education",
+      "Pass school final exam (72% minimum)",
+      "Pass Georgia state exam (152 questions, 75% to pass)",
+      "Exam administered by PSI"
+    ]
+  },
+  "costBreakdown": [
+    {
+      "item": "Pre-License Course",
+      "low": "$180",
+      "high": "$450",
+      "note": "Online courses are cheaper"
+    },
+    {
+      "item": "State Exam Fee",
+      "low": "$121",
+      "high": "$121",
+      "note": "Paid to PSI"
+    },
+    {
+      "item": "License Application",
+      "low": "$170",
+      "high": "$170",
+      "note": "Paid at test center"
+    },
+    {
+      "item": "GCIC Background Check",
+      "low": "$25",
+      "high": "$40",
+      "note": "Varies by police station"
+    },
+    {
+      "item": "Lawful Presence Verification",
+      "low": "Included",
+      "high": "Included",
+      "note": "Required ID check"
+    }
+  ],
+  "totalCostEstimate": {
+    "low": "$496",
+    "high": "$781+"
+  },
+  "exam": {
+    "questions": 152,
+    "passingScore": "75%",
+    "passingCorrect": 0,
+    "timeLimit": "4 hours",
+    "provider": "PSI",
+    "cost": "$121",
+    "topics": [
+      "Property ownership and land use controls",
+      "Real estate valuation and market analysis",
+      "Financing",
+      "General principles of agency",
+      "Property disclosures and contracts",
+      "Georgia real estate license law"
+    ],
+    "passRate": "NEEDS_REVIEW: State average not publicly available",
+    "prepTip": "The Georgia exam requires passing BOTH the National (100 questions) and State (52 questions) sections with a 75%. Don't neglect the state-specific laws."
+  },
+  "timeline": {
+    "fullTime": {
+      "label": "Full-time",
+      "duration": "3–4 weeks",
+      "detail": "Studying 4–6 hours/day"
+    },
+    "partTime": {
+      "label": "Part-time",
+      "duration": "6–8 weeks",
+      "detail": "Studying 1–2 hours/day"
+    },
+    "casual": {
+      "label": "Casual pace",
+      "duration": "3–6 months",
+      "detail": "A few hours per week"
+    }
+  },
+  "faqs": [
+    {
+      "q": "How much does it cost to get a real estate license in Georgia?",
+      "a": "The total cost is typically between $500 and $800. This includes the 75-hour pre-license course ($180–$450), the $121 state exam fee, the $170 license application fee, and approximately $40 for a background check."
+    },
+    {
+      "q": "How long does it take to get a real estate license in Georgia?",
+      "a": "Most students complete the process in 3 to 8 weeks. The 75-hour course can be finished in under a month if you study full-time, but may take longer if you study part-time."
+    },
+    {
+      "q": "What are the requirements for a Georgia real estate license?",
+      "a": "You must be at least 18 years old, have a high school diploma or GED, complete 75 hours of approved education, pass a background check, and pass the state licensing exam."
+    },
+    {
+      "q": "Is the Georgia real estate exam hard?",
+      "a": "The exam is challenging because you must pass both the National and State sections with a 75% score. Comprehensive exam prep is highly recommended to ensure you pass on the first try."
+    },
+    {
+      "q": "Can I take the Georgia real estate course online?",
+      "a": "Yes, the Georgia Real Estate Commission (GREC) allows you to take the 75-hour pre-license course entirely online. Online courses offer flexibility to study at your own pace."
+    },
+    {
+      "q": "How much do real estate agents make in Georgia?",
+      "a": "The average annual income for a Georgia real estate agent is typically between $60,000 and $85,000. Top producers in busy markets like Atlanta can earn significantly more, often exceeding $110,000."
+    },
+    {
+      "q": "Do I need a college degree to be a real estate agent in Georgia?",
+      "a": "No, you do not need a college degree. The minimum education requirement is a high school diploma or a GED."
+    },
+    {
+      "q": "What is the best real estate school in Georgia?",
+      "a": "The best school depends on your learning style. RealEstateU is a popular choice for its affordable, self-paced online packages that include the required 75-hour course."
+    },
+    {
+      "q": "How do I choose between online and in-person classes?",
+      "a": "Online classes are best for students who need flexibility and a lower cost. In-person classes are better if you prefer a structured classroom environment and direct interaction with an instructor."
+    },
+    {
+      "q": "Can I get a real estate license in Georgia with a criminal record?",
+      "a": "It is possible, but you must disclose your history. You will need to provide a GCIC criminal history report, and the Commission will review your background to determine eligibility."
+    }
+  ],
+  "meta": {
+    "title": "Best Online Real Estate Schools in Georgia (2026) | CertLaunch",
+    "description": "Compare the best real estate schools in Georgia for 2026. Get your Georgia real estate license with exclusive discounts.",
+    "h1": "Best Online Real Estate Schools in Georgia (2026)",
+    "subheadline": "Compare top GREC-approved schools. Find the best price with exclusive CertLaunch discounts and get your Georgia real estate license faster."
+  }
+}
