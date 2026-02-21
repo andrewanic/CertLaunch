@@ -1,0 +1,153 @@
+{
+  "state": "Pennsylvania",
+  "stateSlug": "pennsylvania",
+  "vertical": "real-estate",
+  "lastUpdated": "2026-02-21",
+  "requiredHours": 75,
+  "statsBar": {
+    "courseCost": "$149 – $627",
+    "timeToLicense": "4 – 12 weeks",
+    "avgSalary": "$54,300/yr",
+    "requiredHours": "75 hours"
+  },
+  "earningPotential": {
+    "averageIncome": "$48,000 – $70,000",
+    "topEarners": "$100,000 – $200,000+",
+    "commission": {
+      "typicalPct": "2.5%–3%",
+      "medianHomePrice": "$286,000",
+      "examplePerSale": "$7,150–$8,580",
+      "newAgentSplit": "70/30",
+      "newAgentPerSale": "$5,005–$6,006",
+      "firstYearDeals": "6–8",
+      "firstYearEarnings": "$30,000–$48,000"
+    },
+    "topMarkets": ["Philadelphia", "Pittsburgh", "Lehigh Valley", "King of Prussia", "Lancaster", "Harrisburg", "Bucks County", "Chester County"]
+  },
+  "licensingSteps": [
+    {
+      "step": "1",
+      "title": "Complete 75 Hours of Pre-License Education",
+      "desc": "Enroll in a Pennsylvania Real Estate Commission (PREC)-approved 75-hour pre-license course covering Real Estate Fundamentals (30 hours) and Real Estate Practice (45 hours). Courses can be completed online or in-person."
+    },
+    {
+      "step": "2",
+      "title": "Pass the Course Final Exam",
+      "desc": "You must pass the final exam for each course module. Upon passing, your school will issue a Certificate of Completion required to schedule the state licensing exam."
+    },
+    {
+      "step": "3",
+      "title": "Schedule and Pass the State Licensing Exam",
+      "desc": "Register with Pearson VUE and pay the $49 exam fee. The exam has 120 questions (80 national + 40 state-specific) and you need 75% on both sections to pass."
+    },
+    {
+      "step": "4",
+      "title": "Complete a Background Check",
+      "desc": "Submit fingerprints and pay the $22 background check fee. Pennsylvania requires a criminal history check through the Pennsylvania State Police."
+    },
+    {
+      "step": "5",
+      "title": "Apply for Your Salesperson License",
+      "desc": "Submit your license application to the Pennsylvania Real Estate Commission with the $107 fee (includes $72 license fee, $25 application fee, and $10 recovery fund fee)."
+    },
+    {
+      "step": "6",
+      "title": "Find a Sponsoring Broker",
+      "desc": "Pennsylvania requires all new salespersons to work under a licensed real estate broker. Your license cannot be activated until a broker sponsors you."
+    }
+  ],
+  "requirements": {
+    "eligibility": [
+      "Must be at least 18 years old",
+      "Must have a high school diploma or GED",
+      "Must have a US Social Security number",
+      "No college degree required",
+      "Must pass a criminal background check"
+    ],
+    "educationExam": [
+      "75 hours of PREC-approved pre-license education (30 hrs Fundamentals + 45 hrs Practice)",
+      "Pass school final exam for each course module",
+      "Pass Pennsylvania state licensing exam (120 questions, 75% to pass both sections)",
+      "Exam administered by Pearson VUE"
+    ]
+  },
+  "costBreakdown": [
+    { "item": "Pre-License Course", "low": "$149", "high": "$627", "note": "Use CertLaunch discount" },
+    { "item": "State Exam Fee", "low": "$49", "high": "$49", "note": "Pearson VUE" },
+    { "item": "License Application", "low": "$107", "high": "$107", "note": "PA Real Estate Commission ($72 license + $25 app + $10 recovery fund)" },
+    { "item": "Background Check", "low": "$22", "high": "$22", "note": "PA State Police" },
+    { "item": "Fingerprinting", "low": "Included", "high": "Included", "note": "Included in background check fee" }
+  ],
+  "totalCostEstimate": { "low": "$327", "high": "$805+" },
+  "exam": {
+    "questions": 120,
+    "passingScore": "75%",
+    "passingCorrect": "60/80 national, 30/40 state",
+    "timeLimit": "3 hours (120 min national + 60 min state)",
+    "provider": "Pearson VUE",
+    "cost": "$49",
+    "topics": [
+      "Real estate principles and practices",
+      "Pennsylvania real estate law and regulations",
+      "Contracts and agency relationships",
+      "Property ownership, transfer, and land use",
+      "Real estate finance and math",
+      "Fair housing and ethical practices"
+    ],
+    "passRate": "NEEDS_REVIEW: Sources cite ~64% overall first-time pass rate but this is not from an official PA source",
+    "prepTip": "The Pennsylvania state-specific section has a lower pass rate (~46%) than the national section (~61%). Focus extra study time on PA real estate law and Commission regulations."
+  },
+  "timeline": {
+    "fullTime": { "label": "Full-time", "duration": "4–5 weeks", "detail": "Studying 4–6 hours/day" },
+    "partTime": { "label": "Part-time", "duration": "6–10 weeks", "detail": "Studying 1–2 hours/day" },
+    "casual": { "label": "Casual pace", "duration": "3–6 months", "detail": "A few hours per week" }
+  },
+  "faqs": [
+    {
+      "q": "How much does it cost to get a real estate license in Pennsylvania?",
+      "a": "Total costs range from $327 to $805+. This includes the pre-license course ($149–$627), state exam fee ($49), license application ($107), and background check ($22). Using CertLaunch discounts can significantly lower your course cost."
+    },
+    {
+      "q": "How long does it take to get a real estate license in Pennsylvania?",
+      "a": "Most people complete the process in 4 to 12 weeks. Pennsylvania requires 75 hours of pre-license education, which you can complete at your own pace online. After finishing your coursework, you'll need to schedule and pass the state exam, then apply for your license."
+    },
+    {
+      "q": "What are the requirements to get a real estate license in Pennsylvania?",
+      "a": "You must be at least 18 years old, have a high school diploma or GED, complete 75 hours of PREC-approved pre-license education, pass the state licensing exam, clear a background check, and find a sponsoring broker."
+    },
+    {
+      "q": "Is the Pennsylvania real estate exam hard?",
+      "a": "The PA exam is moderately challenging, with roughly 64% of candidates passing on their first attempt. The state-specific section tends to be harder than the national portion. Schools that include exam prep packages can significantly boost your pass rate."
+    },
+    {
+      "q": "Can I take the Pennsylvania real estate course online?",
+      "a": "Yes! Pennsylvania allows you to complete all 75 hours of pre-license education online through PREC-approved schools. Online courses let you study at your own pace from anywhere. Compare online schools on CertLaunch to find the best fit and price."
+    },
+    {
+      "q": "How much do real estate agents make in Pennsylvania?",
+      "a": "The median annual salary for real estate sales agents in Pennsylvania is approximately $54,300 according to BLS data. Top earners in markets like Philadelphia and Pittsburgh can make $100,000 to $200,000+ per year."
+    },
+    {
+      "q": "Do I need a college degree to get a real estate license in Pennsylvania?",
+      "a": "No, Pennsylvania does not require a college degree. You need a high school diploma or GED, plus completion of the 75-hour pre-license course. This makes real estate one of the most accessible career paths available."
+    },
+    {
+      "q": "What is the best real estate school in Pennsylvania?",
+      "a": "The best school depends on your priorities — budget, study style, and timeline. CertLaunch compares all PREC-approved online schools side-by-side so you can find the right fit. Use exclusive CertLaunch discount codes to save on any school you choose."
+    },
+    {
+      "q": "How do I choose between online and in-person real estate school in Pennsylvania?",
+      "a": "Online courses offer flexibility and are often more affordable. In-person classes provide structured schedules and face-to-face interaction. Most Pennsylvania students choose online for convenience. Compare both options on CertLaunch to see pricing and features."
+    },
+    {
+      "q": "Can I get a real estate license in Pennsylvania with a criminal record?",
+      "a": "Having a criminal record does not automatically disqualify you. The Pennsylvania Real Estate Commission reviews each application individually, considering the nature and severity of offenses. You must disclose any criminal history on your application."
+    }
+  ],
+  "meta": {
+    "title": "Best Online Real Estate Schools in Pennsylvania (2026) | Compare & Save | CertLaunch",
+    "description": "Compare the best real estate schools in Pennsylvania for 2026. Get your PA real estate license with exclusive discounts on PREC-approved courses.",
+    "h1": "Best Online Real Estate Schools in Pennsylvania (2026)",
+    "subheadline": "Compare {N} Pennsylvania PREC-approved schools. Find the best price with exclusive CertLaunch discounts and get your real estate license faster."
+  }
+}

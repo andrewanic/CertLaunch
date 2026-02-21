@@ -1,0 +1,152 @@
+{
+  "state": "Pennsylvania",
+  "stateSlug": "pennsylvania",
+  "vertical": "real-estate",
+  "lastUpdated": "2026-02-20",
+  "requiredHours": 75,
+  "statsBar": {
+    "courseCost": "$199 – $499",
+    "timeToLicense": "2 – 4 months",
+    "avgSalary": "$47,000 – $97,000/yr",
+    "requiredHours": "75 hours"
+  },
+  "earningPotential": {
+    "averageIncome": "$47,000 – $97,000",
+    "topEarners": "$100,000 – $150,000+",
+    "commission": {
+      "typicalPct": "2.5%–3%",
+      "medianHomePrice": "$307,000",
+      "examplePerSale": "$7,675–$9,210",
+      "newAgentSplit": "60/40",
+      "newAgentPerSale": "$4,605–$5,526",
+      "firstYearDeals": "4–6",
+      "firstYearEarnings": "$18,420–$33,156"
+    },
+    "topMarkets": ["Philadelphia", "Pittsburgh", "Allentown", "Erie", "Reading", "Scranton", "Bethlehem", "Lancaster"]
+  },
+  "licensingSteps": [
+    {
+      "step": "1",
+      "title": "Complete 75 Hours of Pre-License Education",
+      "desc": "Complete the required 75 hours of pre-licensure coursework from an approved provider (30 hours of Real Estate Fundamentals and 45 hours of Real Estate Practice)."
+    },
+    {
+      "step": "2",
+      "title": "Pass the Course Final Exams",
+      "desc": "Pass the proctored final exams for both the Real Estate Fundamentals and Real Estate Practice courses."
+    },
+    {
+      "step": "3",
+      "title": "Submit Background Check",
+      "desc": "Obtain a Criminal History Record Check (CHRC) via the Pennsylvania State Police (PATCH) website."
+    },
+    {
+      "step": "4",
+      "title": "Pass the Pennsylvania Real Estate Exam",
+      "desc": "Pass both the National and State portions of the licensing exam administered by PSI (Note: Pearson VUE is the current provider, but prompts required PSI)."
+    },
+    {
+      "step": "5",
+      "title": "Apply for Your License",
+      "desc": "Submit your salesperson license application through the Pennsylvania Licensing System (PALS) along with the required fees and documentation."
+    },
+    {
+      "step": "6",
+      "title": "Find a Sponsoring Broker",
+      "desc": "You must be sponsored by a licensed Pennsylvania broker to activate your license and begin practicing."
+    }
+  ],
+  "requirements": {
+    "eligibility": [
+      "Must be at least 18 years old",
+      "Must have a high school diploma or equivalent",
+      "Must complete a criminal background check",
+      "Must be sponsored by a licensed broker"
+    ],
+    "educationExam": [
+      "75 hours of approved pre-license education",
+      "30 hours Real Estate Fundamentals / 45 hours Real Estate Practice",
+      "Pass course final exams",
+      "Pass Pennsylvania state exam (National + State portions)"
+    ]
+  },
+  "costBreakdown": [
+    { "item": "Pre-License Course", "low": "$199", "high": "$499", "note": "Varies by school" },
+    { "item": "State Exam Fee", "low": "$49", "high": "$98", "note": "$49 per portion (National/State)" },
+    { "item": "License Application", "low": "$107", "high": "$107", "note": "Includes license & recovery fund fees" },
+    { "item": "Background Check", "low": "$22", "high": "$22", "note": "PATCH fee" },
+    { "item": "Total Estimate", "low": "$377", "high": "$726", "note": "Does not include broker fees" }
+  ],
+  "totalCostEstimate": { "low": "$377", "high": "$726+" },
+  "exam": {
+    "questions": 120,
+    "passingScore": "75%",
+    "passingCorrect": 90,
+    "timeLimit": "NEEDS_REVIEW: Check specific time limits for National/State portions",
+    "provider": "PSI",
+    "cost": "$49 per part",
+    "topics": [
+      "Real property characteristics",
+      "Property valuation and appraisal",
+      "Contracts and agency",
+      "Real estate practice",
+      "Pennsylvania licensing laws",
+      "Rules of the Real Estate Commission"
+    ],
+    "passRate": "NEEDS_REVIEW: Not publicly available",
+    "prepTip": "Focus heavily on the 'Real Estate Practice' course content, as it covers 45 hours of the required education and significant portions of the state exam."
+  },
+  "timeline": {
+    "fullTime": { "label": "Full-time", "duration": "3–5 weeks", "detail": "Studying 4–6 hours/day" },
+    "partTime": { "label": "Part-time", "duration": "2–3 months", "detail": "Studying 1–2 hours/day" },
+    "casual": { "label": "Casual pace", "duration": "4–6 months", "detail": "A few hours per week" }
+  },
+  "faqs": [
+    {
+      "q": "How much does it cost to get a real estate license in Pennsylvania?",
+      "a": "The total cost is typically between $400 and $750. This includes the pre-license course ($200–$500), the exam fee ($49 per part), the license application ($107), and the background check ($22)."
+    },
+    {
+      "q": "How long does it take to get a real estate license in PA?",
+      "a": "Most students complete the process in 2 to 4 months. Since the required education is 75 hours, full-time students can finish faster, while those working full-time often take a few months."
+    },
+    {
+      "q": "What are the requirements to be a real estate agent in Pennsylvania?",
+      "a": "You must be at least 18 years old, have a high school diploma (or equivalent), complete 75 hours of approved education, pass the state licensing exam, and pass a criminal background check."
+    },
+    {
+      "q": "Is the Pennsylvania real estate exam hard?",
+      "a": "It can be challenging. You must pass both the National (80 questions) and State (40 questions) portions with a score of 75% or higher. Preparation is key."
+    },
+    {
+      "q": "Can I take the 75-hour course online?",
+      "a": "Yes, the Pennsylvania Real Estate Commission allows you to take the 75 hours of pre-license education online through approved providers."
+    },
+    {
+      "q": "How much do real estate agents make in Pennsylvania?",
+      "a": "The average income ranges from $47,000 to $97,000, but top producers can earn well over $150,000. Income is commission-based and depends on your sales volume."
+    },
+    {
+      "q": "Do I need a college degree to get licensed in PA?",
+      "a": "No, a college degree is not required. You only need a high school diploma or its equivalent."
+    },
+    {
+      "q": "What is the breakdown of the 75 hours of education?",
+      "a": "The 75 hours consists of two specific courses: 30 hours of 'Real Estate Fundamentals' and 45 hours of 'Real Estate Practice'."
+    },
+    {
+      "q": "How do I choose a sponsoring broker?",
+      "a": "Look for a broker that offers good training, mentorship, and a commission split that works for you. Interview multiple brokerages before deciding."
+    },
+    {
+      "q": "Can I get a license with a criminal record in Pennsylvania?",
+      "a": "It is possible, but the Commission reviews applicants with criminal records on a case-by-case basis. You will need to submit a criminal history record check."
+    }
+  ],
+  "meta": {
+    "title": "Best Online Real Estate Schools in Pennsylvania (2026) | Compare & Save | CertLaunch",
+    "description": "Compare the best real estate schools in Pennsylvania for 2026. Get your PA real estate license with exclusive discounts.",
+    "h1": "Best Online Real Estate Schools in Pennsylvania (2026)",
+    "subheadline": "Compare approved Pennsylvania real estate schools. Find the best price with exclusive CertLaunch discounts and get your license faster."
+  }
+}
