@@ -41,7 +41,7 @@ const schools: School[] = [
       {
         name: 'Course Only',
         price: 249,
-        discountPrice: 199.20,
+        discountPrice: 199,
         includes: ['75-hour pre-license course', 'Audio lessons', 'Infographics'],
       },
       {
@@ -82,27 +82,6 @@ const schools: School[] = [
         price: 621,
         discountPrice: null,
         includes: ['Everything in Basic', 'Video/audio lessons', '1-on-1 tutoring', 'Live webinars', 'PrepAgent exam prep'],
-      },
-    ],
-  },
-  {
-    name: 'NC Community Colleges',
-    url: 'https://www.waketech.edu/programs-courses/credit/real-estate/licensing',
-    rating: 4.9,
-    ratingSource: 'Student Value',
-    format: 'In-Person, some Livestream',
-    access: 'Semester based',
-    features: ['Lowest cost option', 'In-person instruction', 'Academic environment'],
-    badge: 'Most Affordable',
-    badgeColor: 'bg-green-600',
-    discountCode: null,
-    discountPct: null,
-    packages: [
-      {
-        name: 'Pre-Licensing Course',
-        price: 180,
-        discountPrice: null,
-        includes: ['75-hour course', 'In-person or livestream', 'Campus resources'],
       },
     ],
   },
