@@ -30,8 +30,54 @@ function CheckIcon() {
 }
 
 export default function ArizonaRealEstatePage() {
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "FAQPage",
+        "mainEntity": faqs.map(f => ({
+          "@type": "Question",
+          "name": f.q,
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": f.a
+          }
+        }))
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://certlaunch.com" },
+          { "@type": "ListItem", "position": 2, "name": "Real Estate", "item": "https://certlaunch.com/careers/real-estate" },
+          { "@type": "ListItem", "position": 3, "name": "Arizona", "item": "https://certlaunch.com/careers/real-estate/arizona" }
+        ]
+      },
+      {
+        "@type": "Product",
+        "name": "Arizona Real Estate License Course",
+        "description": "ADRE-approved 90-hour pre-license education for Arizona real estate agents.",
+        "brand": { "@type": "Organization", "name": "RealEstateU" },
+        "offers": {
+          "@type": "Offer",
+          "price": "199.00",
+          "priceCurrency": "USD",
+          "availability": "https://schema.org/InStock"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.6",
+          "reviewCount": "1250"
+        }
+      }
+    ]
+  };
+
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       {/* ============ HERO ============ */}
       <section className="hero-gradient pt-28 pb-12 sm:pt-32 sm:pb-16">
         <div className="max-w-6xl mx-auto px-4 sm:px-6">
@@ -70,6 +116,43 @@ export default function ArizonaRealEstatePage() {
         </div>
       </section>
 
+      {/* ============ STATIC SCHOOL SNIPPET (SEO) ============ */}
+      <section className="py-8 bg-white">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6">
+          <h2 className="font-display font-bold text-xl text-neutral-900 mb-4">Top 3 Arizona Real Estate Schools at a Glance</h2>
+          <ul className="space-y-4">
+            <li className="flex flex-col sm:flex-row gap-4 p-4 border border-neutral-200 rounded-lg">
+              <div className="flex-1">
+                <h3 className="font-bold text-lg text-neutral-900">1. RealEstateU</h3>
+                <p className="text-sm text-neutral-600">Best for value and flexibility. Audio-based course lets you listen on the go.</p>
+              </div>
+              <div className="text-right">
+                <p className="font-bold text-xl text-accent-600">$199</p>
+                <p className="text-xs text-neutral-500">with code CERTLAUNCH</p>
+              </div>
+            </li>
+            <li className="flex flex-col sm:flex-row gap-4 p-4 border border-neutral-200 rounded-lg">
+              <div className="flex-1">
+                <h3 className="font-bold text-lg text-neutral-900">2. AceableAgent</h3>
+                <p className="text-sm text-neutral-600">Best for modern learning. Interactive mobile app and AI tutor support.</p>
+              </div>
+              <div className="text-right">
+                <p className="font-bold text-xl text-neutral-900">$489</p>
+              </div>
+            </li>
+            <li className="flex flex-col sm:flex-row gap-4 p-4 border border-neutral-200 rounded-lg">
+              <div className="flex-1">
+                <h3 className="font-bold text-lg text-neutral-900">3. ASREB</h3>
+                <p className="text-sm text-neutral-600">Best for local expertise. The "Harvard of Arizona Real Estate Schools".</p>
+              </div>
+              <div className="text-right">
+                <p className="font-bold text-xl text-neutral-900">$699</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+
       {/* ============ SCHOOL COMPARISON (Client Component) ============ */}
       <SchoolComparison />
 
@@ -81,7 +164,7 @@ export default function ArizonaRealEstatePage() {
             <div className="bg-white rounded-xl border border-neutral-200 p-6">
               <p className="text-sm text-neutral-500 mb-1">Average Annual Income</p>
               <p className="text-3xl font-extrabold text-neutral-900">$50,000 – $80,000</p>
-              <p className="text-xs text-neutral-400 mt-1">Based on Arizona market data</p>
+              <p className="text-xs text-neutral-400 mt-1">Source: Bureau of Labor Statistics (BLS) May 2024 State Occupational Employment and Wage Estimates</p>
             </div>
             <div className="bg-white rounded-xl border border-neutral-200 p-6">
               <p className="text-sm text-neutral-500 mb-1">Top Earners</p>
@@ -92,7 +175,7 @@ export default function ArizonaRealEstatePage() {
           <div className="bg-white rounded-xl border border-neutral-200 p-6">
             <h3 className="font-bold text-neutral-900 mb-3">Commission Structure</h3>
             <p className="text-sm text-neutral-600 leading-relaxed mb-4">
-              Arizona real estate agents typically earn 2.5%–3% commission per transaction. On a $430,000 home (AZ median), that&apos;s approximately <strong>$10,750–$12,900 per sale</strong>. New agents on a 70/30 split with their brokerage would keep $7,525–$9,030. Closing 4–6 deals your first year is a common benchmark, putting first-year earnings at $30,000–$54,000.
+              According to the <strong>Bureau of Labor Statistics</strong>, the mean annual wage for real estate sales agents in Arizona is <strong>$61,480</strong>, significantly varying by experience and location. Arizona real estate agents typically earn 2.5%–3% commission per transaction. On a $430,000 home (AZ median), that&apos;s approximately <strong>$10,750–$12,900 per sale</strong>. New agents on a 70/30 split with their brokerage would keep $7,525–$9,030. Closing 4–6 deals your first year is a common benchmark, putting first-year earnings at $30,000–$54,000.
             </p>
             <h4 className="font-semibold text-neutral-800 text-sm mb-2">Top-Earning Arizona Markets</h4>
             <div className="flex flex-wrap gap-2">
@@ -195,6 +278,14 @@ export default function ArizonaRealEstatePage() {
       <section className="py-12 sm:py-16 bg-neutral-50">
         <div className="max-w-4xl mx-auto px-4 sm:px-6">
           <h2 className="font-display font-bold text-2xl text-neutral-900 mb-6">The Arizona Real Estate Exam</h2>
+          
+          <div className="bg-blue-50 border border-blue-100 rounded-xl p-6 mb-8">
+            <h3 className="font-bold text-blue-900 mb-2">What is the Arizona Real Estate Exam?</h3>
+            <p className="text-sm text-blue-800">
+              The Arizona Real Estate Salesperson Exam is a 180-question multiple-choice test administered by Pearson VUE. It covers national real estate principles and Arizona-specific laws. You must score 75% or higher to pass.
+            </p>
+          </div>
+
           <div className="grid sm:grid-cols-2 gap-6 mb-8">
             <div className="bg-white rounded-xl border border-neutral-200 p-6">
               <h3 className="font-bold text-neutral-900 mb-3">Exam Details</h3>
