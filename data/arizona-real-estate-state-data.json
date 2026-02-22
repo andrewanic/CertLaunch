@@ -1,0 +1,202 @@
+{
+  "state": "Arizona",
+  "stateSlug": "arizona",
+  "vertical": "real-estate",
+  "lastUpdated": "2026-02-21",
+  "requiredHours": 90,
+  "statsBar": {
+    "courseCost": "$350 – $600",
+    "timeToLicense": "3 – 10 weeks",
+    "avgSalary": "$79,949/yr",
+    "requiredHours": "90 hours"
+  },
+  "earningPotential": {
+    "averageIncome": "$50,000 – $80,000",
+    "topEarners": "$115,000+",
+    "commission": {
+      "typicalPct": "2.5%–3%",
+      "medianHomePrice": "$430,000",
+      "examplePerSale": "$10,750–$12,900",
+      "newAgentSplit": "70/30",
+      "newAgentPerSale": "$7,525–$9,030",
+      "firstYearDeals": "4–6",
+      "firstYearEarnings": "$30,000–$54,000"
+    },
+    "topMarkets": [
+      "Phoenix",
+      "Scottsdale",
+      "Tucson",
+      "Mesa",
+      "Chandler",
+      "Gilbert",
+      "Glendale",
+      "Tempe"
+    ]
+  },
+  "licensingSteps": [
+    {
+      "step": "1",
+      "title": "Complete 90 Hours of Pre-License Education",
+      "desc": "Enroll in an ADRE-approved 90-hour pre-license course. This course covers real estate principles, law, and practice in Arizona."
+    },
+    {
+      "step": "2",
+      "title": "Pass the School Final Exam",
+      "desc": "Successfully pass the course final exam with a score of at least 80%. This is required to receive your Pre-Licensure Education Certificate."
+    },
+    {
+      "step": "3",
+      "title": "Complete the 6-Hour Contract Writing Course",
+      "desc": "Take the required 6-hour Introduction to Contract Writing course. This must be completed before applying for your license."
+    },
+    {
+      "step": "4",
+      "title": "Obtain a Fingerprint Clearance Card",
+      "desc": "Apply for a Fingerprint Clearance Card (FCC) through the Arizona Department of Public Safety (DPS). This background check can take several weeks."
+    },
+    {
+      "step": "5",
+      "title": "Pass the Arizona Real Estate Exam",
+      "desc": "Schedule your exam with Pearson VUE. The exam consists of 180 questions, and you must score at least 75% to pass."
+    },
+    {
+      "step": "6",
+      "title": "Apply for Your Arizona Real Estate License",
+      "desc": "Submit your application to the Arizona Department of Real Estate (ADRE) within one year of passing the state exam."
+    },
+    {
+      "step": "7",
+      "title": "Find a Sponsoring Broker",
+      "desc": "To activate your license, you must be hired by an Arizona designated broker who will approve your hiring on the ADRE online system."
+    }
+  ],
+  "requirements": {
+    "eligibility": [
+      "Must be at least 18 years old",
+      "Must provide proof of legal presence in the US",
+      "No college degree required",
+      "Must obtain a Fingerprint Clearance Card (background check)"
+    ],
+    "educationExam": [
+      "90 hours of approved pre-license education",
+      "6 hours of contract writing education",
+      "Pass school final exam (80% or higher)",
+      "Pass Arizona state exam (180 questions, 75% to pass)",
+      "Exam administered by Pearson VUE"
+    ]
+  },
+  "costBreakdown": [
+    {
+      "item": "Pre-License Course",
+      "low": "$350",
+      "high": "$599",
+      "note": "90-hr course + 6-hr contract writing"
+    },
+    {
+      "item": "Exam Application & Fee",
+      "low": "$75",
+      "high": "$75",
+      "note": "Pearson VUE"
+    },
+    {
+      "item": "Original License Fee",
+      "low": "$60",
+      "high": "$60",
+      "note": "ADRE ($50 license + $10 recovery fund)"
+    },
+    {
+      "item": "Fingerprint Clearance Card",
+      "low": "$67",
+      "high": "$67",
+      "note": "DPS Fee (vendor fees may apply)"
+    }
+  ],
+  "totalCostEstimate": {
+    "low": "$552",
+    "high": "$801+"
+  },
+  "exam": {
+    "questions": 180,
+    "passingScore": "75%",
+    "passingCorrect": 135,
+    "timeLimit": "5 hours (300 minutes)",
+    "provider": "Pearson VUE",
+    "cost": "$75 (includes application)",
+    "topics": [
+      "Real Estate Statutes and Commissioner's Rules",
+      "Agency Relationships and Managerial Duties",
+      "Contracts and Contract Law",
+      "Property Interests, Estates, and Tenancies",
+      "Government Rights and Real Estate Law",
+      "Financing Documents and Liens",
+      "Land Description and Mathematics"
+    ],
+    "passRate": "55–65%",
+    "prepTip": "The Arizona exam is long (5 hours) and comprehensive. Focus heavily on the 6-hour contract writing content and state-specific statutes."
+  },
+  "timeline": {
+    "fullTime": {
+      "label": "Full-time",
+      "duration": "3–4 weeks",
+      "detail": "Studying 6–8 hours/day"
+    },
+    "partTime": {
+      "label": "Part-time",
+      "duration": "6–10 weeks",
+      "detail": "Studying 1–2 hours/day"
+    },
+    "casual": {
+      "label": "Casual pace",
+      "duration": "3–6 months",
+      "detail": "A few hours per week"
+    }
+  },
+  "faqs": [
+    {
+      "q": "How much does it cost to get a real estate license in Arizona?",
+      "a": "Total costs typically range from $550 to $800+. This includes the pre-license course ($350–$600), exam fee ($75), license fee ($60), and fingerprint clearance card (~$67)."
+    },
+    {
+      "q": "How long does it take to become a real estate agent in Arizona?",
+      "a": "Most students complete the process in 4 to 10 weeks. The 90-hour course can be finished in as little as 2-3 weeks if studying full-time, but allow extra time for the fingerprint clearance card processing."
+    },
+    {
+      "q": "What are the requirements for an Arizona real estate license?",
+      "a": "You must be at least 18 years old, have legal presence in the US, complete 90 hours of pre-license education plus a 6-hour contract writing course, pass the state exam, and obtain a Fingerprint Clearance Card."
+    },
+    {
+      "q": "Is the Arizona real estate exam hard?",
+      "a": "The Arizona exam is considered challenging due to its length (180 questions) and 5-hour time limit. First-time pass rates hover around 60%. Thorough exam prep is highly recommended."
+    },
+    {
+      "q": "Can I take the Arizona real estate course online?",
+      "a": "Yes, ADRE approves online pre-license courses. Online courses offer flexibility to study at your own pace compared to classroom settings."
+    },
+    {
+      "q": "Do I need a college degree to be a real estate agent in Arizona?",
+      "a": "No, a college degree is not required. You only need to meet the age and education requirements set by the Arizona Department of Real Estate."
+    },
+    {
+      "q": "How much do real estate agents make in Arizona?",
+      "a": "The average annual income for Arizona real estate agents is around $80,000, with top earners making well over $115,000. Income depends on commission splits and sales volume."
+    },
+    {
+      "q": "What is the 6-hour Contract Writing Course?",
+      "a": "It is a mandatory separate course that teaches you how to write and understand Arizona real estate contracts. You must complete this course before applying for your license."
+    },
+    {
+      "q": "How do I get a Fingerprint Clearance Card in Arizona?",
+      "a": "You must apply through the Arizona Department of Public Safety (DPS). This involves submitting an application and having your fingerprints taken by an approved vendor or law enforcement agency."
+    },
+    {
+      "q": "Can I get an Arizona real estate license with a criminal record?",
+      "a": "It is possible, but you must disclose all prior convictions on your application. The ADRE reviews each case individually, and a Fingerprint Clearance Card is required for licensure."
+    }
+  ],
+  "meta": {
+    "title": "Best Online Real Estate Schools in Arizona (2026) | Compare & Save | CertLaunch",
+    "description": "Compare the best real estate schools in Arizona for 2026. Get your Arizona real estate license with exclusive discounts.",
+    "h1": "Best Online Real Estate Schools in Arizona (2026)",
+    "subheadline": "Compare {N} ADRE-approved schools. Find the best price with exclusive CertLaunch discounts and get your real estate license faster."
+  }
+}
