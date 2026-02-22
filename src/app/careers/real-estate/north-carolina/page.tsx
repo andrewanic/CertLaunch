@@ -100,6 +100,19 @@ export default function NorthCarolinaRealEstatePage() {
         </div>
       </section>
 
+      {/* ============ WHAT IS A PROVISIONAL BROKER? ============ */}
+      <section className="py-12 bg-white">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6">
+          <h2 className="font-display font-bold text-2xl text-neutral-900 mb-4">What is a North Carolina Provisional Broker?</h2>
+          <p className="text-lg text-neutral-700 leading-relaxed">
+            In North Carolina, the entry-level real estate license is officially called a <strong>Provisional Broker</strong> license. Unlike other states that use the term "Salesperson," North Carolina considers all licensees to be Brokers.
+          </p>
+          <p className="mt-4 text-neutral-600">
+            <strong>Key Difference:</strong> A Provisional Broker must be supervised by a Broker-in-Charge (BIC) and cannot practice independently until they complete 90 hours of post-licensing education to remove the "Provisional" status.
+          </p>
+        </div>
+      </section>
+
       {/* ============ SCHOOL COMPARISON (Client Component) ============ */}
       <SchoolComparison />
 
@@ -129,6 +142,35 @@ export default function NorthCarolinaRealEstatePage() {
               {['Charlotte', 'Raleigh', 'Durham', 'Greensboro', 'Winston-Salem', 'Fayetteville', 'Wilmington', 'Asheville'].map((city) => (
                 <span key={city} className="bg-neutral-50 border border-neutral-200 rounded-full px-3 py-1 text-xs text-neutral-600">{city}</span>
               ))}
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* ============ IS IT WORTH IT? PROS & CONS ============ */}
+      <section className="py-12 bg-white">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6">
+          <h2 className="font-display font-bold text-2xl text-neutral-900 mb-6">Is a North Carolina Real Estate License Worth It?</h2>
+          <div className="grid md:grid-cols-2 gap-8">
+            <div>
+              <h3 className="font-bold text-lg text-green-700 mb-3 flex items-center gap-2">
+                <span className="bg-green-100 p-1 rounded">👍</span> Pros
+              </h3>
+              <ul className="space-y-3 text-sm text-neutral-600">
+                <li className="flex gap-2"><span className="text-green-500 font-bold">+</span> <strong>High Earning Potential:</strong> Top NC agents earn $100k+, well above the state average.</li>
+                <li className="flex gap-2"><span className="text-green-500 font-bold">+</span> <strong>Low Barrier to Entry:</strong> Total startup cost is under $700, significantly less than a college degree.</li>
+                <li className="flex gap-2"><span className="text-green-500 font-bold">+</span> <strong>Growing Market:</strong> Areas like Raleigh and Charlotte are among the fastest-growing housing markets in the US.</li>
+              </ul>
+            </div>
+            <div>
+              <h3 className="font-bold text-lg text-red-700 mb-3 flex items-center gap-2">
+                <span className="bg-red-100 p-1 rounded">👎</span> Cons
+              </h3>
+              <ul className="space-y-3 text-sm text-neutral-600">
+                <li className="flex gap-2"><span className="text-red-500 font-bold">-</span> <strong>Income Uncertainty:</strong> It is commission-only; you don't get paid until you sell a home.</li>
+                <li className="flex gap-2"><span className="text-red-500 font-bold">-</span> <strong>Challenging Exam:</strong> The NC state-specific exam section is notoriously difficult compared to other states.</li>
+                <li className="flex gap-2"><span className="text-red-500 font-bold">-</span> <strong>Post-Licensing Requirement:</strong> You must complete 90 additional hours of education within 18 months.</li>
+              </ul>
             </div>
           </div>
         </div>
@@ -323,6 +365,42 @@ export default function NorthCarolinaRealEstatePage() {
           </div>
         </div>
       </section>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify([
+            {
+              "@context": "https://schema.org",
+              "@type": "FAQPage",
+              "mainEntity": faqs.map(f => ({
+                "@type": "Question",
+                "name": f.q,
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": f.a
+                }
+              }))
+            },
+            {
+              "@context": "https://schema.org",
+              "@type": "BreadcrumbList",
+              "itemListElement": [
+                { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://certlaunch.com" },
+                { "@type": "ListItem", "position": 2, "name": "Real Estate", "item": "https://certlaunch.com/careers/real-estate" },
+                { "@type": "ListItem", "position": 3, "name": "North Carolina", "item": "https://certlaunch.com/careers/real-estate/north-carolina" }
+              ]
+            },
+            {
+              "@context": "https://schema.org",
+              "@type": "Article",
+              "headline": "How to Get a Real Estate License in North Carolina (2026)",
+              "datePublished": "2025-11-15",
+              "dateModified": "2026-02-21",
+              "author": [{ "@type": "Organization", "name": "CertLaunch Team" }]
+            }
+          ])
+        }}
+      />
     </>
   );
 }

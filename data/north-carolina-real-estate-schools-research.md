@@ -133,3 +133,50 @@ Note: Focused on Winston-Salem/Triad area. Offers scheduled classes (e.g., Apr 2
 5. Superior School of Real Estate — verified via browser 2/21/2026
 6. Carolina School of Real Estate — verified via browser 2/21/2026
 7. Colibri Real Estate — verified partnership with Superior 2/21/2026
+
+## SUPPLEMENTAL RESEARCH
+
+### 1. Superior School of Real Estate (Detailed Pricing)
+- **URL:** https://www.superiorschoolnc.com/real-estate/license-education/north-carolina/
+- **Formats:** Online Self-Paced, Livestream, In-Person Classroom
+- **Locations (In-Person):** Charlotte, Greensboro, Cornelius, Winston-Salem, Raleigh, Wilmington
+- **Pricing:**
+    - **Career Essentials:** **$529** (Base package, available for Online, Livestream, and In-Person)
+    - **Career Professional:** **$639** (Adds Exam Prep & Crammer Course)
+    - **Career Ultimate:** **$949** (Adds Hardcopy Textbook + 1-Year Professional Development)
+- **Note:** Superior is the "market leader" in NC and partners with major firms like Allen Tate (offering 30% discounts to affiliates).
+
+### 2. Community Colleges (Best Value for In-Person)
+Community colleges across NC offer the 75-hour pre-licensing course at a standardized low rate.
+- **Typical Cost:** **~$180 - $200** (Tuition is often ~$180 + Textbooks).
+- **Pros:** Cheapest in-person/livestream option; trusted academic institutions.
+- **Cons:** Semester-based schedules (longer duration), less flexible start dates.
+- **Key Colleges Checked:**
+    - **Wake Tech (Raleigh):** Offers "Real Estate Provisional Broker" (RLS-3700A2).
+    - **Central Piedmont (Charlotte):** Offers RLS-REX7601.
+    - **Cape Fear (Wilmington):** Offers Real Estate Pre-Licensing.
+    - **Guilford Tech (Greensboro):** Offers pre-licensing courses.
+    - **Southwestern Community College:** Listed at **$180**.
+
+### 3. Other Schools Investigated
+- **The NC Real Estate School:**
+    - **URL:** https://thencrealestateschool.org/
+    - **Format:** Online Self-Paced (via partnerships) & Virtual Instructor.
+    - **Notes:** Appears to partner with national providers (likely The CE Shop or similar) for the self-paced content.
+- **Pinnacle Real Estate Academy:**
+    - **URL:** https://pinnaclerealestateacademy.com/
+    - **Focus:** Primarily South Carolina (Myrtle Beach) but offers "NC Broker Courses" (specifically mentions Post-Licensing). Pre-licensing availability for NC is less prominent online.
+- **Allen Tate School of Real Estate:**
+    - **Status:** **Partners with Superior School of Real Estate.**
+    - **Details:** Refers students to Superior; offers a promo code (e.g., ALLENTATE30) for discounts.
+- **Long & Foster Institute:**
+    - **Status:** Partners with **The CE Shop** for self-paced and operates "Fonville Morisey Real Estate School" for local classes.
+- **National Providers Checked:**
+    - **VanEd:** ❌ Does NOT offer NC pre-licensing.
+    - **360training (Agent Campus):** ❌ Does NOT offer NC pre-licensing (CE only).
+    - **AYPO (At Your Pace Online):** ❌ Primarily CE/Post-license focus; pre-license not clearly listed for NC.
+
+### 4. Missing Schools Added
+- **Fonville Morisey Real Estate School:** (Raleigh/Durham area, associated with Long & Foster).
+- **Go School of Real Estate:** (Cary, NC) - Often cited in local searches for classroom/livestream.
+- **Pan School of Real Estate:** (Raleigh/Whitsett) - Another local classroom provider.
